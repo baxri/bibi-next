@@ -1,0 +1,16 @@
+{
+  "name": "bibi",
+  "version": "1.0.0",
+  "description": "Persona Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
