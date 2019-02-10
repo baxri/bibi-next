@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
                     <meta name="author" content="colorlib" />
                     <meta name="description" content="" />
                     <meta name="keywords" content="" />
-                    <meta charset="UTF-8" />
+                    <meta charSet="UTF-8" />
                     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet" />
                     <link rel="stylesheet" href="/static/css/linearicons.css" />
@@ -21,13 +21,14 @@ export default class MyDocument extends Document {
                     <link rel="stylesheet" href="/static/css/animate.min.css" />
                     <link rel="stylesheet" href="/static/css/owl.carousel.css" />
                     <link rel="stylesheet" href="/static/css/main.css" />
+                    <link rel="stylesheet" href="/static/css/nprogress.css" />
                 </Head>
                 <body>
                     <Main />
 
                     <script src="/static/js/vendor/jquery-2.2.4.min.js"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                        crossorigin="anonymous"></script>
+                        crossOrigin="anonymous"></script>
                     <script src="/static/js/vendor/bootstrap.min.js"></script>
                     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
                     <script src="/static/js/easing.min.js"></script>
