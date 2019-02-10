@@ -56,7 +56,7 @@ export default class GoodAt extends Component {
                 
                     .service-area{
                         /* border: 1px solid red; */
-                        margin-top: 40px;
+                        margin-top: 60px;
                     }
 
                 `}</style>
