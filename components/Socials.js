@@ -24,6 +24,10 @@ export default class Socials extends Component {
         <a href="https://www.linkedin.com/in/giorgi-bibilashvili/" target="_blank" id="download-button" className="btn btn-light">
                     <span className="fa fa-linkedin fa-lg"></span>
                 </a>
+                &nbsp;
+                <a href="https://www.resume.com/share/bibi" target="_blank" id="download-button" className="btn btn-light">
+                    <span className="fa fa-download fa-lg"></span> &nbsp;&nbsp; RESUME
+                </a>
 
 
                 <style jsx>{`

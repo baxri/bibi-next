@@ -2147,12 +2147,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     .banner-content .me:after {
       content: '';
       position: absolute;
-      right: 0;
+      left: 26px;
       bottom: -15px;
       width: 0;
       height: 0;
-      border-left: 26px solid transparent;
-      border-right: 0px solid transparent;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
       border-top: 24px solid #90acd1; }
   .banner-content .designation {
     max-width: 404px;

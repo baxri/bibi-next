@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from 'next/link'
 
 import Layout from "../layouts/Layout";
 import Socials from "../components/Socials";
@@ -12,20 +13,22 @@ export default class Index extends Component {
                     <div className="container">
                         <div className="row fullscreen d-flex align-items-center pt-100">
                             <div className="banner-content col-lg-6 col-md-12 justify-content-center ">
-                                <div className="me wow " data-wow-duration="1s" data-wow-delay="1.2s">It's me</div>
-                                <h1 className="wow " data-wow-duration="1s" data-wow-delay="1.7s">GEORGE BIBILASHVILI</h1>
-                                <div className="designation mb-70 wow " data-wow-duration="1s" data-wow-delay="2.1s">
+                                <div className="me wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                                    I do it because it's fun and, apparently, I'm pretty good at it
+                                </div>
+                                <h1 className="wow fadeInDown" data-wow-duration="1s">GEORGE BIBILASHVILI</h1>
+                                <div className="designation mb-70 wow fadeInDown" data-wow-duration="1s" >
                                     Full Stack
 						        <span className="designer"> Web Developer</span>
                                     <p className="skills">Laravel, NodeJS, React, React Native, Redux, GraphQL </p>
-
                                     <Socials align="start" />
                                 </div>
 
-
-                                <a href="#i-am-goot-at" className="primary-btn" data-text="I am good at">
-                                    <span>I am good at</span>
-                                </a>
+                                <Link href="/#i-am-goot-at">
+                                    <a href="#i-am-goot-at" className="primary-btn" data-text="I am good at">
+                                        <span>I am good at</span>
+                                    </a>
+                                </Link>
                             </div>
                             <div className="banner-img col-lg-6 col-md-6 align-self-end">
                                 <img className="img-fluid avatar" src="/static/img/me.jpg" alt="" />

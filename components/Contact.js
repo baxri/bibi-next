@@ -4,7 +4,7 @@ import Socials from "./Socials";
 export default class Contact extends Component {
     render() {
         return (
-            <div>
+            <div id="contact">
                 <section className="contact-area section-gap">
                     <div className="container">
                         <div className="row">
