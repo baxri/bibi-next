@@ -4,6 +4,8 @@ import Router from "next/router";
 import { withRouter } from 'next/router'
 import NProgress from "nprogress";
 
+import Contact from "../components/Contact";
+
 NProgress.configure({ showSpinner: false });
 
 Router.onRouteChangeStart = url => {
@@ -33,7 +35,13 @@ class Layout extends Component {
                     <div className="container main-menu">
                         <div className="row align-items-center d-flex">
                             <div id="logo">
-                                <a href="index.html"><img src="/static/img/logo.png" alt="" title="" /></a>
+                                <Link href="/">
+                                    <a href="#">
+
+                                        {/* <img src="/static/img/logo.png" alt="" title="" /> */}
+                                        <h1><span className="logo-b">B</span>IBI</h1>
+                                    </a>
+                                </Link>
                             </div>
                             <nav id="nav-menu-container">
                                 <ul className="nav-menu">
@@ -133,7 +141,14 @@ class Layout extends Component {
                 </section>
 
 
+                <Contact />
+
+
                 <style jsx>{`
+
+                    .logo-b{
+                        color: #e45447;
+                    }
 
                     .page{
                         

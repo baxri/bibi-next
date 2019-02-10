@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Layout from "../layouts/Layout";
+import Socials from "../components/Socials";
 
 export default class Index extends Component {
     render() {
@@ -18,20 +19,20 @@ export default class Index extends Component {
 						        <span className="designer"> Web Developer</span>
                                     <p className="skills">Laravel, NodeJS, React, React Native, Redux, GraphQL </p>
 
+                                    <Socials align="start" />
                                 </div>
+
+
                                 <a href="#i-am-goot-at" className="primary-btn" data-text="I am good at">
                                     <span>I am good at</span>
                                 </a>
                             </div>
                             <div className="banner-img col-lg-6 col-md-6 align-self-end">
-                                {/* <img className="img-fluid" src="/static/img/banner-img.png" alt="" /> */}
                                 <img className="img-fluid avatar" src="/static/img/me.jpg" alt="" />
                             </div>
                         </div>
                     </div>
                 </section>
-
-
 
                 <style jsx>{`
 
@@ -42,6 +43,7 @@ export default class Index extends Component {
                 .banner-img{
                     height: 100vh;
                     padding-top: 15%;
+                    position: relative;
                 }
 
                 .banner-content{
