@@ -50,6 +50,16 @@ export default class GoodAt extends Component {
                         </div>
                     </div>
                 </div>
+
+
+                <style jsx>{`
+                
+                    .service-area{
+                        /* border: 1px solid red; */
+                        margin-top: 40px;
+                    }
+
+                `}</style>
             </section>
         )
     }

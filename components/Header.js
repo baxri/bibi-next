@@ -16,12 +16,11 @@ class Header extends Component {
                         <div id="logo">
                             <Link href="/">
                                 <a href="#">
-
-                                    {/* <img src="/static/img/logo.png" alt="" title="" /> */}
                                     <h1><span className="logo-b">B</span>IBI</h1>
                                 </a>
                             </Link>
                         </div>
+
                         <nav id="nav-menu-container">
                             <ul className="nav-menu">
                                 <li className="">
@@ -31,17 +30,17 @@ class Header extends Component {
                                 </li>
                                 <li>
                                     <Link href="/about">
-                                        <a href="/about" className={pathname === '/about' ? 'active' : ''}>About</a>
+                                        <a href="#" className={pathname === '/about' ? 'active' : ''}>About</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/job-history">
-                                        <a href="/jos-history" className={pathname === '/job-history' ? 'active' : ''}>Job History</a>
+                                        <a href="#" className={pathname === '/job-history' ? 'active' : ''}>Job History</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/latest-works">
-                                        <a href="/latest-works" className={pathname === '/latest-works' ? 'active' : ''}>Latest Works</a>
+                                        <a href="#" className={pathname === '/latest-works' ? 'active' : ''}>Latest Works</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -49,6 +48,7 @@ class Header extends Component {
                                         <a href="#contact">Contact</a>
                                     </Link>
                                 </li>
+
 
 
                                 {/* <li className="menu-has-children"><a href="#">Pages</a>
@@ -67,6 +67,10 @@ class Header extends Component {
                         </li> */}
                             </ul>
                         </nav>
+
+
+
+
                     </div>
                 </div>
 

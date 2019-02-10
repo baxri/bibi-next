@@ -7,14 +7,7 @@ export default class Contact extends Component {
             <div id="contact">
                 <section className="contact-area section-gap">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="contact-title">
-                                    <h2>Contact Me</h2>
-                                    <p>If you are looking for experienced freelancer to build business online, contact me!</p>
-                                </div>
-                            </div>
-                        </div>
+                       
 
                         <br />
                         <Socials align="center" />
@@ -39,7 +32,7 @@ export default class Contact extends Component {
 
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <a href="mailto:giorgi.bibilashvili89@gmail.com" m className="primary-btn mt-50" data-text="Hire Me">
+                                <a href="mailto:giorgi.bibilashvili89@gmail.com" className="primary-btn mt-50" data-text="Hire Me">
                                     <span>H</span>
                                     <span>i</span>
                                     <span>r</span>
