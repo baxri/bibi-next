@@ -15,7 +15,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/job-history": [
+    "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -23,7 +23,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
+    "/job-history": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

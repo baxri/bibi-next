@@ -11,13 +11,13 @@ class Header extends Component {
 
         return (
             <header id="header">
-                <div className="container main-menu">
+                <div className="container  main-menu">
                     <div className="header-wrapper row align-items-center d-flex justify-content-between justify-content-lg-start">
 
-                        <div id="logo d-flex">
+                        <div id="logo d-flex ">
                             <Link href="/">
                                 <a href="#">
-                                    <h1><span className="logo-b">B</span>IBI</h1>
+                                    <h1 className="pl-3"><span className="logo-b">B</span>DDD</h1>
                                 </a>
                             </Link>
                         </div>
@@ -51,62 +51,27 @@ class Header extends Component {
                                 </ul>
                             </div>
                         </nav>
-
-                        {/* <nav id="nav-menu-container">
-                            <ul className="nav-menu">
-                                <li className="">
-                                    <Link href="/" >
-                                        <a className={pathname === '/' ? 'active' : ''} href="/">Home</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/about">
-                                        <a href="/about" className={pathname === '/about' ? 'active' : ''}>About</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/job-history">
-                                        <a href="/job-history" className={pathname === '/job-history' ? 'active' : ''}>Job History</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/latest-works">
-                                        <a href="/latest-works" className={pathname === '/latest-works' ? 'active' : ''}>Latest Works</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#contact">
-                                        <a href="#contact">Contact</a>
-                                    </Link>
-                                </li>
-                    
-                            </ul>
-                        </nav> */}
-
-
-
-
                     </div>
                 </div>
 
-                <div className="collapse navbar-collapse " id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
+                <div className="hidden-menu collapse navbar-collapse container-fluid" id="navbarNav">
+                    <ul className="hidden-menu-navbar navbar-nav d-flex justify-content-center">
+                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/" >
                                 <a className={pathname === '/' ? 'nav-link active' : 'nav-link'} href="#">Home </a>
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/about" >
                                 <a className={pathname === '/about' ? 'nav-link active' : 'nav-link'} href="#">about </a>
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/job-history" >
                                 <a className={pathname === '/job-history' ? 'nav-link active' : 'nav-link'} href="#">job-history</a>
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/latest-works" >
                                 <a className={pathname === '/latest-works' ? 'nav-link active' : 'nav-link'} href="#">latest-works</a>
                             </Link>
@@ -119,10 +84,6 @@ class Header extends Component {
 
                     .logo-b{
                         color: #e45447;
-                    }
-
-                    .header-wrapper{
-                        // border: 1px solid red;
                     }
 
                     .navbar{
@@ -139,7 +100,20 @@ class Header extends Component {
                         font-size: 16px;
                         text-transform: capitalize;
                         outline: none;
-                        
+                    }
+
+                    .hidden-menu{
+                        background: white;
+                    }
+
+                    .hidden-menu-navbar-item{
+                        // border-bottom: 1px dotted lightgray;
+                    }
+
+                    @media only screen and (max-width: 991px) {
+                        #header{
+                            background: white;
+                        }
                     }
                 
                 `}</style>
