@@ -13,7 +13,7 @@ export default class Index extends Component {
                         <div className="row fullscreen">
                             <div className="banner-content col-lg-6 col-md-12 justify-content-center d-flex flex-direction-column align-items-center ">
                                 <div>
-                                    <div className="me wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                                    <div className="me wow fadeInUp " data-wow-duration="1s" data-wow-delay="1s">
                                         I do it because it's fun and, apparently, I'm pretty good at it
                                 </div>
                                     <h1 className="wow fadeInDown" data-wow-duration="1s">GEORGE BIBILASHVILI</h1>
@@ -42,6 +42,7 @@ export default class Index extends Component {
 
                 .fullscreen{
                     height: 100vh;
+                    /* border: 1px solid green; */
                 }
 
                 .banner-img{
@@ -51,9 +52,8 @@ export default class Index extends Component {
                 }
 
                 .banner-content{
-                    height: 100vh;
+                    /* height: 100vh; */
                     /* border: 1px solid red; */
-                    padding-top: 50px;
                 }
 
                 .avatar{
@@ -66,6 +66,18 @@ export default class Index extends Component {
 
                 .skills{
                     font-size: 12pt;
+                }
+
+                @media only screen and (max-width: 768px) {
+                    .banner-content h1{
+                        font-size: 20pt;
+                        margin-top: 0px;
+                        /* margin-bottom: -10px; */
+                    }
+
+                    .banner-content p{
+                        line-height: 20px;
+                    }
                 }
             
             `}</style>
