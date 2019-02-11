@@ -41,10 +41,7 @@ class Layout extends Component {
 
 
                 <style jsx>{`
-                    .page{
-                        padding-left: 20px;
-                        padding-right: 20px;
-                    }
+                   
                 
                 `}</style>
             </div>
