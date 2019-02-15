@@ -49,6 +49,15 @@ class Layout extends Component {
                     }
                 
                 `}</style>
+
+                 <style global jsx>{`
+
+                        .bred{
+                            border: 1px solid red;
+                        }
+                   
+
+                `}</style>
             </div>
         )
     }

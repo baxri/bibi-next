@@ -16,30 +16,28 @@ export default class JobHistory extends Component {
 
                     <div className="row">
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 ">
                             <a href="http://www.webmation.com" target="_blank">
-                                <div className="single-job">
-                                    <div className="top-sec d-flex justify-content-between">
+                                <div className="single-job job-card">
+                                    <div className="top-sec d-flex justify-content-between bred">
                                         <div className="top-left">
                                             <h4>Senior Laravel/React Developer</h4>
                                             <p>WWW.WEBMATION.COM</p>
                                         </div>
-                                        <div className="top-right">
-                                            <a href="#" className="primary-btn dates" data-text="2019 - Present">
-                                                <span>2019 - Present</span>
-                                            </a>
-                                        </div>
                                     </div>
-                                    <div className="bottom-sec wow fadeIn" data-wow-duration="2s">
+                                    <div className="bottom-sec wow fadeIn d-flex bred" data-wow-duration="2s">
                                         Developing one of the biggest SAAS platform in New York, with Laravel, NodeJS, React and GraphQL.
-						      </div>
+						             </div>
+                                    <div className="d-flex bred">
+                                        <strong>2019 - Present</strong>
+                                    </div>
                                 </div>
                             </a>
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 ">
                             <a href="https://unipay.com/en" target="_blank">
-                                <div className="single-job">
+                                <div className="single-job job-card">
                                     <div className="top-sec d-flex justify-content-between">
                                         <div className="top-left">
                                             <h4>Senior Web Developer</h4>
@@ -61,9 +59,9 @@ export default class JobHistory extends Component {
                         </div>
 
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 ">
                             <a href="https://www.unicoin.io" target="_blank">
-                                <div className="single-job">
+                                <div className="single-job job-card">
                                     <div className="top-sec d-flex justify-content-between">
                                         <div className="top-left">
                                             <h4>Laravel API Developer</h4>
@@ -84,8 +82,8 @@ export default class JobHistory extends Component {
                         </div>
 
 
-                        <div className="col-lg-6">
-                            <div className="single-job">
+                        <div className="col-lg-6 ">
+                            <div className="single-job job-card">
                                 <div className="top-sec d-flex justify-content-between">
                                     <div className="top-left">
                                         <h4>Senior React Native Developer</h4>
@@ -108,8 +106,8 @@ export default class JobHistory extends Component {
                         </div>
 
 
-                        <div className="col-lg-6">
-                            <div className="single-job">
+                        <div className="col-lg-6 ">
+                            <div className="single-job job-card">
                                 <div className="top-sec d-flex justify-content-between">
                                     <div className="top-left">
                                         <h4>Junior Web Developer</h4>
@@ -135,18 +133,28 @@ export default class JobHistory extends Component {
                 </div>
 
                 <style jsx>{`
+                    
+            
 
                     div,p{
-                    color: gray;
+                        color: gray;
                     }
 
                     .dates{
-                    max-height: 50px;
-                    width: 150px;
+                        max-height: 50px;
+                        width: 150px;
                     }
 
                     .single-job{
-                    height: 300px;
+                        height: 300px;
+                    }
+
+                    .job-card{
+                        border: 1px solid lightgray;
+                        border-radius: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
                     }
 
                     `}</style>
