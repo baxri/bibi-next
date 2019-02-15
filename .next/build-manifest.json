@@ -11,11 +11,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
+    "/job-history": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/job-history": [
+    "/latest-works": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
