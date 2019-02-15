@@ -52,9 +52,7 @@ export default class LatestWorks extends Component {
 
                 <style jsx>{`
 
-                    .section-gap-top{
-                        /* margin-top: 10px; */
-                    }
+                   
                 
                 `}</style>
             </div>
