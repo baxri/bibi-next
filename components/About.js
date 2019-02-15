@@ -7,9 +7,9 @@ export default class About extends Component {
                 <section className="about-area section-gap" id="about-me">
                     <div className="container">
                         <div className="row align-items-center justify-content-between">
-                            <div className="col-lg-6 about-left">
+                            {/* <div className="col-lg-6 about-left">
                                 <img className="img-fluid" src="/static/img/about-img.jpg" alt="" />
-                            </div>
+                            </div> */}
                             <div className="col-lg-5 col-md-12 about-right">
                                 <div className="section-title">
                                     <h2>about myselt</h2>
