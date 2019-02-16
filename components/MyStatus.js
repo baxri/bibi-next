@@ -16,9 +16,9 @@ export default class MyStatus extends Component {
             coffeHours: [13],
             lastTwoHours: [17, 18, 23],
             familyHours: [19, 20, 21],
-            sleepHours: [22, 23, 24, '00', 1, 2, 3, 4],
+            sleepHours: [22, 23, 24, 0, 1, 2, 3, 4],
 
-            weekend: [6, 7],
+            weekend: [6, 0],
 
             time: null,
             status: 'active',
@@ -50,8 +50,6 @@ export default class MyStatus extends Component {
 
         let hour = nd.getHours();
         let day = nd.getDay();
-
-
 
         if (this.state.sleepHours.includes(hour)) {
             this.setState({ status: 'sleeping' });
@@ -102,7 +100,7 @@ export default class MyStatus extends Component {
             <div>
 
                 <div className={"me wow fadeInLeft mb-3 " + status} data-wow-duration="1s" data-wow-delay="1s">
-                    {this.state.time} -  &nbsp; {status == 'weekend' && ' - WEEKEND - '}
+                    {this.state.time} -  &nbsp; {status == 'weekend' && ' WEEKEND - '}
 
                     {status == 'morning-coffee' && "I'm getting morning coffee right now and starting my working session ;)"}
                     {status == 'morning-working-hours' && "I have my morning working session right now, my day starts before the day starts 4:00 AM ..."}
@@ -121,25 +119,20 @@ export default class MyStatus extends Component {
                     {status == 'active' && "I'm active right now will be available until 7:00 PM then I have a family and bed time ..."}
                     
                     {/* Weekend */}
-                    {status == 'weekend' && "Sorrrry nnow is weeken dd ??!... #drunk #beer #tomuchalcohol... Sorry for typos I am drun kkk :D :D "}
+                    {status == 'weekend' && "Sorrrry nnow is weeken dd ??!... #drunk #beer #toomuchalcohol... Sorry for typos I am drun kkk :D :D "}
                     
 
                 </div>
 
                 <style jsx>{`
 
-                    .my-status{
-                        position: fixed;
-                        bottom: 20px;
-                        right: 20px;
-                        background-color: #80fb4e;
-                        border-radius: 20px;
-                        padding: 15px;
-                        color: white;
-
-                        -webkit-box-shadow: -9px -8px 16px -1px rgba(0,0,0,0.14);
-                        -moz-box-shadow: -9px -8px 16px -1px rgba(0,0,0,0.14);
-                        box-shadow: -9px -8px 16px -1px rgba(0,0,0,0.14);
+                    .weekend{
+                        -ms-transform: rotate(20deg); /* IE 9 */
+                        -webkit-transform: rotate(20deg); /* Safari 3-8 */
+                        transform: rotate(20deg);
+                        margin-bottom: -50px;
+                        margin-left: -20px;
+                        max-width: 400px;
                     }
 
                     /* .sleeping{

@@ -32,28 +32,40 @@ export default class About extends Component {
             },
             {
                 id: 'schedule',
-                title: `4:00 AM`,
+                title: `4:00 AM ?`,
                 image: `/static/img/get-started.jpg`,
-                desc: `The alarm clock has a terrible sound, I wake up and go to my morning coffee, 
-                        it's all going out at 4:00 AM. Then I go to my computer and start working. This is 
-                        the best time of day when I can find the most productive labor. Nobody is around me
-                        at this time, nobody interrupts me. I have done so much work from 4:00 AM to 11:00 
+                desc: `Yes... 4:00 AM, exactly at this time... my day starts before the day starts... every morning, the same 
+                        <a href="https://www.youtube.com/watch?v=iNpXCzaWW1s" target="_blank">sound</a> 
+                        wakes me up...`,
+                desc2: ` 
+                        The alarm clock has a terrible sound, I wake up and go to my morning coffee, 
+                        it's all going out at 4:00 AM. Then I go with the coffee at my computer and preparing to start my morning working session.
+                        <br />
+                        <br />
+                        Why 4:00 AM?
+                        <br />
+                        This is the best part of day when I can find the most productive labor. Nobody is around me
+                        at this time, nobody interrupts me, I have done so much work from 4:00 AM to 11:00 
                         AM that a lot of people cant during the day time. from 11:30 AM I am going to the 
                         office where I am dealing with emails, have another coding session, have some meetings 
                         and a bunch of other interesting stuff. At 7:00 PM I am at home with my family and 9:00 
                         PM is bedtime.`,
-                note: ``,
+                note: `Family time, just continue scrolling ...`,
                 direction: 'left-to-right'
             },
             {
                 id: 'family',
                 title: `Family Time`,
                 image: `/static/img/nita.jpg`,
-                desc: `I have a wonderful wife and a wonderful 4 years daughter. I feel really really happy in 
-                        my life.  Because I am very busy in my daily life I have just few hours to spent with my family 
-                        from 7:00 PM to 9:00 PM, But these few hours are very interesting for me and my baby :) we 
-                        are playing together some fun games. The only words that can make me stop working are: "Dad can 
-                        you play with me?",  These magic works make very sense :D`,
+                desc: `Nowadays it is the most difficult to combine family and job. You always fight with yourself to find a 
+                            great balance between family and job.`,
+
+                desc2: `I have a wonderful wife and a wonderful 4 years daughter. I feel really really happy in 
+                        my life.  Because I am very busy in my daily routine I have just few hours to spent with my family 
+                        from 7:00 PM to 9:00 PM, But these few hours are very interesting and productive for me and my girl...
+                        I turn of my smartphone and spent all of my time with her, 
+                        we are playing together some fun games... The only words that can makes me stop working are: "Dad can 
+                        you play with me?",  These magic works make very sense...`,
                 note: `Play with me, we can make the world better place.`,
                 direction: 'right-to-left'
             }
