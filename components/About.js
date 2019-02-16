@@ -12,11 +12,13 @@ export default class About extends Component {
                         client-side webs, developing application databases, for businesses.
                         I've done this as an employee, and a freelancer. I've also worked on some super-secret projects and big brands.
                         I'd tell you, but then I'd have to kill you..., 
-                        
 
+                        <br />
+                        <br />
+                        Skills I am good at:
+                        <br />
+                        <strong>Laravel, NodeJS, React, React Native, Vue, Redux, MySQL, MongoDB</strong>
 
-                        My currenct top skills are: 
-                        Laravel, NodeJS, React, React Native, Redux, GraphQL
                         `,
                 desc2: `During these years I launched many interesting projects in the Georgian market mostly in eCommerce and 
                         cryptocurrency world. 
@@ -70,7 +72,7 @@ export default class About extends Component {
                                     <h2>{about.title}</h2>
                                 </div>
                                 <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
-                                    <p>{about.desc}</p>
+                                    <p dangerouslySetInnerHTML={{__html: about.desc}}></p>
                                     {about.desc2 && <p>{about.desc2}</p>}
                                     {about.desc3 && <p>{about.desc3}</p>}
                                     <strong>{about.note}</strong>
