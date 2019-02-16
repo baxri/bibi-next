@@ -73,8 +73,8 @@ export default class About extends Component {
                                 </div>
                                 <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
                                     <p dangerouslySetInnerHTML={{__html: about.desc}}></p>
-                                    {about.desc2 && <p>{about.desc2}</p>}
-                                    {about.desc3 && <p>{about.desc3}</p>}
+                                    {about.desc2 && <p dangerouslySetInnerHTML={{__html: about.desc2}}></p>}
+                                    {about.desc3 && <p dangerouslySetInnerHTML={{__html: about.desc3}}></p>}
                                     <strong>{about.note}</strong>
                                 </div>
                             </div>
