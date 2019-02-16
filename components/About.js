@@ -65,9 +65,9 @@ export default class About extends Component {
                     <div className="container wow fadeInUp" data-wow-duration="1s" >
                         <div className="row align-items-center justify-content-between">
 
-                            {about.direction == 'left-to-right' && (<div className="col-lg-5 ">
+                            {/* {about.direction == 'left-to-right' && (<div className="col-lg-5 ">
                                 <img className="img-fluid" src={about.image} alt="" />
-                            </div>)}
+                            </div>)} */}
 
                             <div className="col-lg-6 col-md-12 about-right">
                                 <div className="section-title">
@@ -75,16 +75,20 @@ export default class About extends Component {
                                     <h2>{about.title}</h2>
                                 </div>
                                 <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
-                                    <p dangerouslySetInnerHTML={{__html: about.desc}}></p>
-                                    {about.desc2 && <p dangerouslySetInnerHTML={{__html: about.desc2}}></p>}
-                                    {about.desc3 && <p dangerouslySetInnerHTML={{__html: about.desc3}}></p>}
+                                    <p dangerouslySetInnerHTML={{ __html: about.desc }}></p>
+                                    {about.desc2 && <p dangerouslySetInnerHTML={{ __html: about.desc2 }}></p>}
+                                    {about.desc3 && <p dangerouslySetInnerHTML={{ __html: about.desc3 }}></p>}
                                     <strong>{about.note}</strong>
                                 </div>
                             </div>
 
-                            {about.direction == 'right-to-left' && (<div className="col-lg-5 ">
+                            {/* {about.direction == 'right-to-left' && (<div className="col-lg-5 ">
                                 <img className="img-fluid" src={about.image} alt="" />
-                            </div>)}
+                            </div>)} */}
+
+                            <div className="col-lg-5 ">
+                                <img className="img-fluid" src={about.image} alt="" />
+                            </div>
 
                         </div>
                     </div>

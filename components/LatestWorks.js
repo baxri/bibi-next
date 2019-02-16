@@ -70,7 +70,7 @@ export default class LatestWorks extends Component {
 
         return (
             <div>
-                <section className="job-area section-gap-top ">
+                {/* <section className="job-area section-gap-top ">
                     <div className="container">
                         <div className="row d-flex">
                             <div className="col-lg-12">
@@ -85,15 +85,12 @@ export default class LatestWorks extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+               
 
-
-                {works.map((item, key) => (<section className="about-area" id="about-me">
-                    <div className="container">
+                {works.map((item, key) => (<section className="about-area section-gap-top wow fadeInUp" data-wow-duration="1s" id="about-me" key={key}>
+                    <div className="container" >
                         <div className="row align-items-center justify-content-between">
-                            <div className="col-lg-6 about-left">
-                                <img className="img-fluid" src={item.image} alt="" />
-                            </div>
                             <div className="col-lg-5 col-md-12 about-right">
                                 <div className="section-title">
                                     <h2>{item.title}</h2>
@@ -107,6 +104,9 @@ export default class LatestWorks extends Component {
                                     </p>
                                     <p>{item.desc}</p>
                                 </div>
+                            </div>
+                            <div className="col-lg-6 ">
+                                <img className="img-fluid" src={item.image} alt="" />
                             </div>
                         </div>
                     </div>
