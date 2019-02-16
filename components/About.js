@@ -12,7 +12,7 @@ export default class About extends Component {
                 desc: ` Hey, I am George Bibilashvili, full stack web developer from Georgia, For the past 8 years, I've been building server-side applications (API),
                         client-side webs, developing application databases, for businesses.
                         I've done this as an employee, and a freelancer. I've also worked on some super-secret projects and big brands.
-                        I'd tell you, but then I'd have to kill you..., 
+                        I'd tell you, but then I'd have to kill you :D
 
                         <br />
                         <br />
