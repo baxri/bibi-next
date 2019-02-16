@@ -6,6 +6,7 @@ export default class LatestWorks extends Component {
         const works = [
 
             {
+                'status': true,
                 'title': 'UniPAY',
                 'image': '/static/works/unipay.png',
                 'url': 'https://unipay.com/en',
@@ -36,11 +37,12 @@ export default class LatestWorks extends Component {
 
             },
             {
+                'status': true,
                 'title': 'UniCOIN.io',
                 'image': '/static/works/unicoin.png',
                 'url': 'https://www.unicoin.io/',
                 'url_name': 'www.unicoin.io',
-                'category': 'Web Development',
+                'category': 'Ecommerce Software',
                 'tags': `REDUX, postgresql, socket.io, react.js, node.js, laravel-framework, php`,
                 'desc': `This website is also for the Georgian market. We launched this project just a two months ago and 
                         already have more 30K users. this is a digital cryptocurrency wallet. 
@@ -57,6 +59,7 @@ export default class LatestWorks extends Component {
 
             },
             {
+                'status': true,
                 'title': 'Railway Tickets',
                 'image': '/static/works/matarebeli.png',
                 'url': 'http://www.matarebeli.ge/en/home',
@@ -83,6 +86,7 @@ export default class LatestWorks extends Component {
                             `
             },
             {
+                'status': true,
                 'title': '.GE Domains',
                 'image': '/static/works/domains.png',
                 'url': 'https://ge.domains',
@@ -106,13 +110,27 @@ export default class LatestWorks extends Component {
                         `,
             },
             {
+                'status': true,
                 'title': 'Spotify Premium',
                 'image': '/static/works/spotify.png',
                 'url': 'http://www.spotifypremium.ge/en',
                 'url_name': 'www.spotifypremium.ge',
                 'category': 'Web Development',
                 'tags': `LARAVEL, PHP, MYSQL, REACT, NEXT.JS`,
-                'desc': `Get a personal Spotify Premium account usable anywhere in the world.`
+                'desc': `This is simple web application, built on top of LARAVEL.
+                        <br />
+                        <br />
+                        How does it work?
+                        <br />
+                        Purchase 1, 3, 6 month or 1 year Spotify premium subscription from our web-page Spotify.unipay.com
+
+                        Get a personal Spotify Premium account usable anywhere in the world.
+                        
+                        <br />
+                        <br />
+                        Get discount when purchasing at least the 3-month subscription.
+                        
+                        `
             }
 
 
@@ -144,10 +162,14 @@ export default class LatestWorks extends Component {
                             <div className="col-lg-5 col-md-12 about-right">
                                 <div className="section-title">
                                     <h2>{item.title}</h2>
+
                                 </div>
+
                                 <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
                                     <p>
                                         <a href={item.url} target="_blank">{item.url_name}</a>
+                                        {item.status && <p className="up-and-running">{">"} Up and running...</p>}
+                                        {!item.status && <p className="down-from-network">{">"} Server is down...</p>}
                                     </p>
                                     <p>
                                         <strong>{item.category}: </strong> {item.tags}
@@ -165,7 +187,15 @@ export default class LatestWorks extends Component {
 
                 <style jsx>{`
 
-                   
+                   .up-and-running{
+                       color: lightgreen;
+                       font-size: 8pt;
+                   }
+
+                   .down-from-network{
+                       color: red;
+                       font-size: 8pt;
+                   }
                 
                 `}</style>
             </div>

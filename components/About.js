@@ -65,7 +65,7 @@ export default class About extends Component {
                         from 7:00 PM to 9:00 PM, But these few hours are very interesting and productive for me and my girl...
                         I turn of my smartphone and spent all of my time with her, 
                         we are playing together some fun games... The only words that can makes me stop working are: "Dad can 
-                        you play with me?",  These magic works make very sense...`,
+                        you play with me?",  These magic words make very sense...`,
                 note: `Play with me, we can make the world better place.`,
                 direction: 'right-to-left'
             }
