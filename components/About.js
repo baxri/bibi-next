@@ -9,7 +9,7 @@ export default class About extends Component {
                 id: 'get-started',
                 title: `Get Started`,
                 image: `/static/img/about-img.jpg`,
-                desc: `For the past 8 years, I've been building server-side applications (API),
+                desc: ` Hey, I am George Bibilashvili, full stack web developer from Georgia, For the past 8 years, I've been building server-side applications (API),
                         client-side webs, developing application databases, for businesses.
                         I've done this as an employee, and a freelancer. I've also worked on some super-secret projects and big brands.
                         I'd tell you, but then I'd have to kill you..., 
@@ -23,11 +23,11 @@ export default class About extends Component {
                         `,
                 desc2: `During these years I launched many interesting projects in the Georgian market mostly in eCommerce and 
                         cryptocurrency world. 
-                        If you want to build a business online we can have word, just schedule time with me.`,
+                        If you want to build a business online we can have a word, just schedule time with me.`,
 
                 desc3: `I do it because it's fun and, apparently, I'm pretty good at it.`,
 
-                note: `If you are intersted how my day looks like, just scroll down :)`,
+                note: `If you are intersted how my day looks like, just continue scrolling ...`,
                 direction: 'right-to-left'
             },
             {
