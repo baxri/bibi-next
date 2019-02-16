@@ -10,6 +10,7 @@ export default class MyStatus extends Component {
             offset: '+4',
 
             morningCoffeeHours: [4],
+            morningWorkingHours: [5, 6, 7, 8],
             alreadyWorkedFiveHours: [9, 10],
             OnMyWayHours: [11],
             coffeHours: [13],
@@ -70,6 +71,10 @@ export default class MyStatus extends Component {
             this.setState({ status: 'on-my-way-to-office' });
         }
 
+        if (this.state.morningWorkingHours.includes(hour)) {
+            this.setState({ status: 'morning-working-hours' });
+        }
+
         this.setState({ time: city + " " + this.formatAMPM(nd).toUpperCase() });
 
     }
@@ -85,12 +90,15 @@ export default class MyStatus extends Component {
                     {this.state.time} -  &nbsp;
 
                     {status == 'morning-coffee' && "I'm getting morning coffee right now and starting my working session ;)"}
-                    {status == 'already-worked-five-hours' && "I already worked 5 hours today from 4:00 AM looking forward I have a 16 hour working session today :)"}
-                    {status == 'on-my-way-to-office' && "I'm on my way to office will active in a few minutes ;)"}
-                    {status == 'active' && "I have an active right now I am available until 7:00 PM then I have a family and bed time:)"}
-                    {status == 'sleeping' && "Shhh! I'm Sleeping right now, please be quiet, I wake up 4:00 AM :)"}
+                    {status == 'morning-working-hours' && "I have my morning working session right now, my day starts before the day starts 4:00 AM ..."}
+                    {status == 'already-worked-five-hours' && "I already worked 5 hours today from 4:00 AM looking forward I have a 16 hour working session today ..."}
+                    {status == 'on-my-way-to-office' && "Wait wait wait..., I'm on my way to office will active in a few minutes ... :)"}
+                    {status == 'sleeping' && "Shhh! I'm Sleeping right now, please be quiet, I wake up 4:00 AM ... just scroll down or go to menu to get more info about me..."}
                     {status == 'family' && "Family time right now, then I should sleep and will be available from 4:00 AM ;)"}
                     {status == 'coffee-break' && "I have coffee break at my office will be available in less than hour ;)"}
+
+                    {/* Default status */}
+                    {status == 'active' && "I'm active right now will be available until 7:00 PM then I have a family and bed time ..."}
 
                 </div>
 
