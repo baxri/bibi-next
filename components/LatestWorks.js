@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Carousel } from 'react-responsive-carousel';
 
 export default class LatestWorks extends Component {
     render() {
@@ -8,7 +9,14 @@ export default class LatestWorks extends Component {
             {
                 'status': true,
                 'title': 'UniPAY',
-                'image': '/static/works/unipay.png',
+                'images': [
+                    '/static/img/work/unipay/6.jpg',
+                    '/static/img/work/unipay/1.jpg',
+                    '/static/img/work/unipay/2.jpg',
+                    '/static/img/work/unipay/3.jpg',
+                    '/static/img/work/unipay/4.jpg',
+                    
+                ],
                 'url': 'https://unipay.com/en',
                 'url_name': 'www.unipay.com',
                 'category': 'Ecommerce Software',
@@ -39,7 +47,14 @@ export default class LatestWorks extends Component {
             {
                 'status': true,
                 'title': 'UniCOIN.io',
-                'image': '/static/works/unicoin.png',
+                'images': [
+                    '/static/img/work/unicoin/1.png',
+                    '/static/img/work/unicoin/2.png',
+                    '/static/img/work/unicoin/3.png',
+                    '/static/img/work/unicoin/4.png',
+                    '/static/img/work/unicoin/5.png',
+                  
+                ],
                 'url': 'https://www.unicoin.io/',
                 'url_name': 'www.unicoin.io',
                 'category': 'Ecommerce Software',
@@ -61,7 +76,11 @@ export default class LatestWorks extends Component {
             {
                 'status': true,
                 'title': 'Railway Tickets',
-                'image': '/static/works/matarebeli.png',
+                'images': [
+                    '/static/works/matarebeli.png',
+                    '/static/works/matarebeli.png',
+                    '/static/works/matarebeli.png',
+                ],
                 'url': 'http://www.matarebeli.ge/en/home',
                 'url_name': 'www.matarebeli.ge',
                 'category': 'Web Development',
@@ -88,7 +107,11 @@ export default class LatestWorks extends Component {
             {
                 'status': true,
                 'title': '.GE Domains',
-                'image': '/static/works/domains.png',
+                'images': [
+                    '/static/works/domains.png',
+                    '/static/works/domains.png',
+                    '/static/works/domains.png',
+                ],
                 'url': 'https://ge.domains',
                 'url_name': 'ge.domains',
                 'category': 'Web Development',
@@ -98,7 +121,7 @@ export default class LatestWorks extends Component {
                         one best registrator in Georgia with more than 20K domains and users. 
                         You can buy and manage .ge domains, apply some name servers and you have all
                         the tools to make your domain up and running.
-                        
+
                         <br />
                         <br />
 
@@ -106,13 +129,18 @@ export default class LatestWorks extends Component {
                             because of we needed to make our application SEO friendly, The easiest solution we 
                             found was next.js with server-side rendering feature. It works great with LARAVEL 
                             API backend and NODEJS microservices.
-                        
+
                         `,
             },
             {
                 'status': true,
                 'title': 'Spotify Premium',
-                'image': '/static/works/spotify.png',
+                'images': [
+                    '/static/works/spotify.png',
+                    '/static/works/spotify.png',
+                    '/static/works/spotify.png',
+                    '/static/works/spotify.png',
+                ],
                 'url': 'http://www.spotifypremium.ge/en',
                 'url_name': 'www.spotifypremium.ge',
                 'category': 'Web Development',
@@ -125,11 +153,11 @@ export default class LatestWorks extends Component {
                         Purchase 1, 3, 6 month or 1 year Spotify premium subscription from our web-page Spotify.unipay.com
 
                         Get a personal Spotify Premium account usable anywhere in the world.
-                        
+
                         <br />
                         <br />
                         Get discount when purchasing at least the 3-month subscription.
-                        
+
                         `
             }
 
@@ -156,20 +184,17 @@ export default class LatestWorks extends Component {
                 </section> */}
 
 
-                {works.map((item, key) => (<section className="about-area section-gap-top wow fadeInUp" data-wow-duration="1s" id="about-me" key={key}>
+                {works.map((item, key) => (<section className="about-area section-gap-top" data-wow-duration="1s" id="about-me" key={key}>
                     <div className="container" >
                         <div className="row align-items-center justify-content-between">
                             <div className="col-lg-5 col-md-12 about-right">
                                 <div className="section-title">
                                     <h2>{item.title}</h2>
-
                                 </div>
 
                                 <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
                                     <p>
                                         <a href={item.url} target="_blank">{item.url_name}</a>
-                                        {item.status && <p className="up-and-running">{">"} Up and running...</p>}
-                                        {!item.status && <p className="down-from-network">{">"} Server is down...</p>}
                                     </p>
                                     <p>
                                         <strong>{item.category}: </strong> {item.tags}
@@ -178,25 +203,27 @@ export default class LatestWorks extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-6 ">
-                                <img className="img-fluid" src={item.image} alt="" />
+                                <Carousel  showThumbs={false} showStatus={false} emulateTouch>
+                                    {item.images.map((image, key) => (<div key={key}>
+                                        <img className="img-fluid"  src={image} alt="" />
+                                    </div>))}
+                                </Carousel>
                             </div>
                         </div>
                     </div>
                 </section>))}
 
 
-                <style jsx>{`
+                <style global jsx>{`
 
-                   .up-and-running{
-                       color: lightgreen;
-                       font-size: 8pt;
-                   }
-
-                   .down-from-network{
-                       color: red;
-                       font-size: 8pt;
-                   }
-                
+                    .carousel .slide {
+                        min-width: 100%;
+                        margin: 0;
+                        position: relative;
+                        text-align: center;
+                        background: white !important;
+                    }
+                                    
                 `}</style>
             </div>
         )

@@ -74,7 +74,7 @@ export default class About extends Component {
         return (
             <div>
                 {abouts.map((about, key) => (<section className="about-area section-gap-top" id={about.id} key={key}>
-                    <div className="container wow fadeInUp" data-wow-duration="1s" >
+                    <div className="container" data-wow-duration="1s" >
                         <div className="row align-items-center justify-content-between">
 
                             {/* {about.direction == 'left-to-right' && (<div className="col-lg-5 ">

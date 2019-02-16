@@ -20,8 +20,10 @@ export default class MyDocument extends Document {
                     <link rel="stylesheet" href="/static/css/nice-select.css" />
                     <link rel="stylesheet" href="/static/css/animate.min.css" />
                     <link rel="stylesheet" href="/static/css/owl.carousel.css" />
+                    <link rel="stylesheet" href="/static/css/carousel.min.css" />
                     <link rel="stylesheet" href="/static/css/main.css" />
                     <link rel="stylesheet" href="/static/css/nprogress.css" />
+          
                 </Head>
                 <body>
                     <Main />
