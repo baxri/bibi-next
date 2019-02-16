@@ -17,7 +17,7 @@ class Header extends Component {
                         <div id="logo d-flex ">
                             <Link href="/">
                                 <a href="#">
-                                    <h1 className="pl-3"><span className="logo-b">B</span>DDD</h1>
+                                    <h1 className="pl-3"><span className="logo-b">B</span>IBI</h1>
                                 </a>
                             </Link>
                         </div>
@@ -38,11 +38,11 @@ class Header extends Component {
                                             <a className={pathname === '/about' ? 'nav-link active' : 'nav-link'} href="#">about </a>
                                         </Link>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link href="/job-history" >
                                             <a className={pathname === '/job-history' ? 'nav-link active' : 'nav-link'} href="#">job-history</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
                                         <Link href="/latest-works" >
                                             <a className={pathname === '/latest-works' ? 'nav-link active' : 'nav-link'} href="#">latest-works</a>

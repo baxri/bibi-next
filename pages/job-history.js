@@ -5,6 +5,7 @@ import JobHistory from "../components/JobHistory";
 
 export default class History extends Component {
   render() {
+
     return (
       <Layout>
         <JobHistory />

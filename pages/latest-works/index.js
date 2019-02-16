@@ -5,6 +5,7 @@ import LatestWorks from "../../components/LatestWorks";
 
 export default class Index extends Component {
     render() {
+
         return (
             <Layout>
                 <LatestWorks />

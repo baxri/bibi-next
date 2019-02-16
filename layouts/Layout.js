@@ -41,8 +41,22 @@ class Layout extends Component {
 
 
                 <style jsx>{`
-                   
+
+                    @media only screen and (max-width: 991px) {
+                       .page{
+                           padding-top: 50px;
+                       }
+                    }
                 
+                `}</style>
+
+                 <style global jsx>{`
+
+                        .bred{
+                            border: 1px solid red;
+                        }
+                   
+
                 `}</style>
             </div>
         )
