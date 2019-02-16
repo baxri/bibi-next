@@ -10,26 +10,6 @@
     "/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/job-history": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/latest-works": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
