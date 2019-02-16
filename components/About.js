@@ -6,6 +6,7 @@ export default class About extends Component {
 
         const abouts = [
             {
+                id: 'get-started',
                 title: `Get Started`,
                 image: `/static/img/about-img.jpg`,
                 desc: `For the past 8 years, I've been building server-side applications (API),
@@ -17,7 +18,7 @@ export default class About extends Component {
                         <br />
                         Skills I am good at:
                         <br />
-                        <strong>Laravel, NodeJS, React, React Native, Vue, Redux, MySQL, MongoDB</strong>
+                        <strong>Laravel, NodeJS, React, NextJS, React Native, Vue, Redux, MySQL, MongoDB</strong>
 
                         `,
                 desc2: `During these years I launched many interesting projects in the Georgian market mostly in eCommerce and 
@@ -30,6 +31,7 @@ export default class About extends Component {
                 direction: 'right-to-left'
             },
             {
+                id: 'schedule',
                 title: `4:00 AM`,
                 image: `/static/img/get-started.jpg`,
                 desc: `The alarm clock has a terrible sound, I wake up and go to my morning coffee, 
@@ -44,7 +46,8 @@ export default class About extends Component {
                 direction: 'left-to-right'
             },
             {
-                title: `Family`,
+                id: 'family',
+                title: `Family Time`,
                 image: `/static/img/nita.jpg`,
                 desc: `I have a wonderful wife and a wonderful 4 years daughter. I feel really really happy in 
                         my life.  Because I am very busy in my daily life I have just few hours to spent with my family 
@@ -58,8 +61,8 @@ export default class About extends Component {
 
         return (
             <div>
-                {abouts.map((about, key) => (<section className="about-area section-gap-top" id="about-me">
-                    <div className="container wow fadeInUp" data-wow-duration="1s">
+                {abouts.map((about, key) => (<section className="about-area section-gap-top" id={about.id} key={key}>
+                    <div className="container wow fadeInUp" data-wow-duration="1s" >
                         <div className="row align-items-center justify-content-between">
 
                             {about.direction == 'left-to-right' && (<div className="col-lg-5 ">

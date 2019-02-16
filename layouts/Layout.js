@@ -39,7 +39,6 @@ class Layout extends Component {
                 <GoodAt />
                 <Contact />
 
-
                 <style jsx>{`
 
                     @media only screen and (max-width: 991px) {
@@ -50,14 +49,7 @@ class Layout extends Component {
                 
                 `}</style>
 
-                 <style global jsx>{`
-
-                        .bred{
-                            border: 1px solid red;
-                        }
-                   
-
-                `}</style>
+               
             </div>
         )
     }

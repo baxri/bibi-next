@@ -30,7 +30,7 @@ class Header extends Component {
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
                                         <Link href="/" >
-                                            <a className={pathname === '/' ? 'nav-link active' : 'nav-link'} href="#">Home </a>
+                                            <a className={pathname === '/' ? 'nav-link active' : 'nav-link'} href="#">My Status </a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
@@ -58,7 +58,7 @@ class Header extends Component {
                     <ul className="hidden-menu-navbar navbar-nav d-flex justify-content-center">
                         <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/" >
-                                <a className={pathname === '/' ? 'nav-link active' : 'nav-link'} href="#">Home </a>
+                                <a className={pathname === '/' ? 'nav-link active' : 'nav-link'} href="#">My Status </a>
                             </Link>
                         </li>
                         <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
