@@ -1,6 +1,17 @@
 import Document, { Head, Main, NextScript } from "next/document";
+import { withRouter } from 'next/router'
 
-export default class MyDocument extends Document {
+
+class MyDocument extends Document {
+
+    constructor(props) {
+        super(props)
+
+        this.state = {
+
+        }
+    }
+
     render() {
         return (
             <html lang="en">
@@ -55,3 +66,6 @@ export default class MyDocument extends Document {
         )
     }
 }
+
+
+export default withRouter(MyDocument);

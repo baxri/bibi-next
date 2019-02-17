@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Router from "next/router";
+import Router, { withRouter } from "next/router";
 import NProgress from "nprogress";
+import ReactGA from 'react-ga';
 
 import Contact from "../components/Contact";
 import Header from "../components/Header";
@@ -17,6 +18,13 @@ Router.onRouteChangeError = () => NProgress.done();
 
 
 class Layout extends Component {
+
+    componentWillMount() {
+        const { router: { pathname } } = this.props;
+        ReactGA.initialize('UA-115548985-1');
+        ReactGA.pageview(pathname);
+    }
+
     render() {
 
         const { children } = this.props;
@@ -49,10 +57,12 @@ class Layout extends Component {
                 
                 `}</style>
 
-               
+
+
+
             </div>
         )
     }
 }
 
-export default Layout;
+export default withRouter(Layout);
