@@ -21,7 +21,9 @@ class Layout extends Component {
 
     componentWillMount() {
         const { router: { pathname } } = this.props;
-        ReactGA.initialize('UA-115548985-1');
+        ReactGA.initialize('UA-115548985-1', {
+            debug: true,
+        });
         ReactGA.pageview(pathname);
     }
 
