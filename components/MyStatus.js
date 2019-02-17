@@ -127,9 +127,6 @@ export default class MyStatus extends Component {
                 <style jsx>{`
 
                     .weekend{
-                        -ms-transform: rotate(20deg); /* IE 9 */
-                        -webkit-transform: rotate(20deg); /* Safari 3-8 */
-                        transform: rotate(20deg);
                         margin-bottom: -50px;
                         margin-left: -20px;
                         max-width: 400px;
