@@ -7,6 +7,7 @@ export default class LatestWorks extends Component {
         const works = [
 
             {
+                'id': 'unipay',
                 'status': true,
                 'intranet': false,
                 'title': 'UniPAY',
@@ -60,6 +61,7 @@ export default class LatestWorks extends Component {
 
             },
             {
+                'id': 'unicoin',
                 'status': true,
                 'intranet': false,
                 'title': 'UniCOIN.io',
@@ -101,6 +103,7 @@ export default class LatestWorks extends Component {
 
             },
             {
+                'id': 'railway',
                 'status': true,
                 'intranet': false,
                 'title': 'Railway Tickets',
@@ -137,6 +140,7 @@ export default class LatestWorks extends Component {
                             `
             },
             {
+                'id': 'domains',
                 'status': true,
                 'intranet': false,
                 'title': '.GE Domains',
@@ -175,6 +179,7 @@ export default class LatestWorks extends Component {
                         `,
             },
             {
+                'id': 'spotify',
                 'status': true,
                 'intranet': false,
                 'title': 'Spotify Premium',
@@ -210,6 +215,7 @@ export default class LatestWorks extends Component {
                         `
             },
             {
+                'id': 'cinemax',
                 'status': false,
                 'intranet': false,
                 'title': 'CINEMAX',
@@ -238,6 +244,7 @@ export default class LatestWorks extends Component {
                         `
             },
             {
+                'id': 'bti',
                 'status': true,
                 'intranet': true,
                 'title': 'BTI Translation',
@@ -297,7 +304,7 @@ export default class LatestWorks extends Component {
                 </section> */}
 
 
-                {works.map((item, key) => (<section className="about-area section-gap-top" data-wow-duration="1s" id="about-me" key={key}>
+                {works.map((item, key) => (<section className="about-area section-gap-top" data-wow-duration="1s" id={item.id} key={key}>
                     <div className="container" >
                         <div className="row align-items-center justify-content-between">
                             <div className="col-lg-5 col-md-12 about-right">
