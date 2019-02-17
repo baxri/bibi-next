@@ -66,7 +66,7 @@ class Header extends Component {
                                 <a className={pathname === '/about' ? 'nav-link active' : 'nav-link'} href="#">about </a>
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/react-native" >
                                 <a className={pathname === '/react-native' ? 'nav-link active' : 'nav-link'} href="#">React Native</a>
                             </Link>

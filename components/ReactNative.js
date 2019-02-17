@@ -117,7 +117,50 @@ export default class ReactNative extends Component {
 
                         `
             },
-            //
+            {
+                'status': false,
+                'intranet': false,
+                'intro': false,
+                'id': 'gitrak',
+                'title': 'GiTRAK',
+                'images': [
+                    '/static/img/react-native/gitrak/1.png',
+                    '/static/img/react-native/gitrak/2.png',
+                    '/static/img/react-native/gitrak/3.png',
+                    '/static/img/react-native/gitrak/4.png',
+                    '/static/img/react-native/gitrak/5.png',
+                    '/static/img/react-native/gitrak/6.png',
+                    '/static/img/react-native/gitrak/7.png',
+                    '/static/img/react-native/gitrak/8.png',
+                    '/static/img/react-native/gitrak/9.png',
+                    '/static/img/react-native/gitrak/10.png',
+                    '/static/img/react-native/gitrak/11.png',
+                    '/static/img/react-native/gitrak/12.png',
+                    '/static/img/react-native/gitrak/13.png',
+                    '/static/img/react-native/gitrak/14.png',
+                    '/static/img/react-native/gitrak/15.png',
+                    '/static/img/react-native/gitrak/16.png',
+                ],
+                'url': 'https://www.unicoin.io/',
+                'url_name': 'www.unicoin.io',
+                'category': 'Medical Software',
+                'tags': `React Native, React.js, Firebase, Redux`,
+                'desc': `
+                GiTRACK is an IOS application for a doctor and patient online communication. 
+                It is built on top of React Native, Firebase and Redux.
+
+                <br />
+                <br />
+                
+                The patient can register from the app and manage his daily diet, check for 
+                some suggestions and notify a doctor
+                if has some problems, schedule a call with a doctor.
+
+
+                        
+                       
+                        `
+            },
 
 
         ];
@@ -138,7 +181,7 @@ export default class ReactNative extends Component {
                                             {!item.intranet && item.status && <a href={item.url} target="_blank">{item.url_name}</a>}
 
                                             {item.intranet && <strong>Intranet Application (Access Forbiden)</strong>}
-                                            {!item.status && <strong>Unfortunately application is dead</strong>}
+                                            {!item.status && <strong>Application is not on App store</strong>}
 
                                         </p>
                                         <p>

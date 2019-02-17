@@ -5,6 +5,7 @@ export default class MyDocument extends Document {
         return (
             <html lang="en">
                 <Head>
+                    <title>BIBI.ge</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                     <link rel="shortcut icon" href="img/fav.png" />
                     <meta name="author" content="colorlib" />
@@ -23,7 +24,8 @@ export default class MyDocument extends Document {
                     <link rel="stylesheet" href="/static/css/carousel.min.css" />
                     <link rel="stylesheet" href="/static/css/main.css" />
                     <link rel="stylesheet" href="/static/css/nprogress.css" />
-          
+
+
                 </Head>
                 <body>
                     <Main />
