@@ -38,11 +38,11 @@ class Header extends Component {
                                             <a className={pathname === '/about' ? 'nav-link active' : 'nav-link'} href="#">about </a>
                                         </Link>
                                     </li>
-                                    {/* <li className="nav-item">
-                                        <Link href="/job-history" >
-                                            <a className={pathname === '/job-history' ? 'nav-link active' : 'nav-link'} href="#">job-history</a>
+                                    <li className="nav-item">
+                                        <Link href="/react-native" >
+                                            <a className={pathname === '/react-native' ? 'nav-link active' : 'nav-link'} href="#">React Native</a>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li className="nav-item">
                                         <Link href="/latest-works" >
                                             <a className={pathname === '/latest-works' ? 'nav-link active' : 'nav-link'} href="#">latest-works</a>
@@ -66,9 +66,9 @@ class Header extends Component {
                                 <a className={pathname === '/about' ? 'nav-link active' : 'nav-link'} href="#">about </a>
                             </Link>
                         </li>
-                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
-                            <Link href="/job-history" >
-                                <a className={pathname === '/job-history' ? 'nav-link active' : 'nav-link'} href="#">job-history</a>
+                        <li className="nav-item">
+                            <Link href="/react-native" >
+                                <a className={pathname === '/react-native' ? 'nav-link active' : 'nav-link'} href="#">React Native</a>
                             </Link>
                         </li>
                         <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">

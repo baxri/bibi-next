@@ -8,14 +8,29 @@ export default class LatestWorks extends Component {
 
             {
                 'status': true,
+                'intranet': false,
                 'title': 'UniPAY',
                 'images': [
-                    '/static/img/work/unipay/6.jpg',
-                    '/static/img/work/unipay/1.jpg',
-                    '/static/img/work/unipay/2.jpg',
-                    '/static/img/work/unipay/3.jpg',
-                    '/static/img/work/unipay/4.jpg',
-                    
+                    '/static/img/work/unipay/1.png',
+                    '/static/img/work/unipay/2.png',
+                    '/static/img/work/unipay/3.png',
+                    '/static/img/work/unipay/4.png',
+                    '/static/img/work/unipay/5.png',
+                    '/static/img/work/unipay/6.png',
+                    '/static/img/work/unipay/7.png',
+                    '/static/img/work/unipay/8.png',
+                    '/static/img/work/unipay/9.png',
+                    '/static/img/work/unipay/10.png',
+                    '/static/img/work/unipay/11.png',
+                    '/static/img/work/unipay/12.png',
+                    '/static/img/work/unipay/13.png',
+                    '/static/img/work/unipay/14.png',
+                    '/static/img/work/unipay/15.png',
+                    '/static/img/work/unipay/16.png',
+                    '/static/img/work/unipay/17.png',
+                    '/static/img/work/unipay/18.png',
+                    '/static/img/work/unipay/19.png',
+
                 ],
                 'url': 'https://unipay.com/en',
                 'url_name': 'www.unipay.com',
@@ -46,14 +61,26 @@ export default class LatestWorks extends Component {
             },
             {
                 'status': true,
+                'intranet': false,
                 'title': 'UniCOIN.io',
                 'images': [
-                    '/static/img/work/unicoin/1.png',
                     '/static/img/work/unicoin/2.png',
                     '/static/img/work/unicoin/3.png',
                     '/static/img/work/unicoin/4.png',
                     '/static/img/work/unicoin/5.png',
-                  
+                    '/static/img/work/unicoin/6.png',
+                    '/static/img/work/unicoin/7.png',
+                    '/static/img/work/unicoin/8.png',
+                    '/static/img/work/unicoin/9.png',
+                    '/static/img/work/unicoin/10.png',
+                    '/static/img/work/unicoin/11.png',
+                    '/static/img/work/unicoin/12.png',
+                    '/static/img/work/unicoin/13.png',
+                    '/static/img/work/unicoin/14.png',
+                    '/static/img/work/unicoin/15.png',
+                    '/static/img/work/unicoin/16.png',
+                    '/static/img/work/unicoin/17.png',
+                    '/static/img/work/unicoin/18.png',
                 ],
                 'url': 'https://www.unicoin.io/',
                 'url_name': 'www.unicoin.io',
@@ -75,11 +102,16 @@ export default class LatestWorks extends Component {
             },
             {
                 'status': true,
+                'intranet': false,
                 'title': 'Railway Tickets',
                 'images': [
-                    '/static/works/matarebeli.png',
-                    '/static/works/matarebeli.png',
-                    '/static/works/matarebeli.png',
+                    '/static/img/work/matarebeli/1.png',
+                    '/static/img/work/matarebeli/2.png',
+                    '/static/img/work/matarebeli/3.png',
+                    '/static/img/work/matarebeli/4.png',
+                    '/static/img/work/matarebeli/5.png',
+                    '/static/img/work/matarebeli/6.png',
+                    '/static/img/work/matarebeli/7.png',
                 ],
                 'url': 'http://www.matarebeli.ge/en/home',
                 'url_name': 'www.matarebeli.ge',
@@ -106,11 +138,21 @@ export default class LatestWorks extends Component {
             },
             {
                 'status': true,
+                'intranet': false,
                 'title': '.GE Domains',
                 'images': [
-                    '/static/works/domains.png',
-                    '/static/works/domains.png',
-                    '/static/works/domains.png',
+                    '/static/img/work/domains/1.png',
+                    '/static/img/work/domains/2.png',
+                    '/static/img/work/domains/3.png',
+                    '/static/img/work/domains/4.png',
+                    '/static/img/work/domains/5.png',
+                    '/static/img/work/domains/6.png',
+                    '/static/img/work/domains/7.png',
+                    '/static/img/work/domains/8.png',
+                    '/static/img/work/domains/9.png',
+                    '/static/img/work/domains/10.png',
+                    '/static/img/work/domains/11.png',
+                    '/static/img/work/domains/12.png',
                 ],
                 'url': 'https://ge.domains',
                 'url_name': 'ge.domains',
@@ -134,12 +176,19 @@ export default class LatestWorks extends Component {
             },
             {
                 'status': true,
+                'intranet': false,
                 'title': 'Spotify Premium',
                 'images': [
-                    '/static/works/spotify.png',
-                    '/static/works/spotify.png',
-                    '/static/works/spotify.png',
-                    '/static/works/spotify.png',
+                    '/static/img/work/spotify/1.png',
+                    '/static/img/work/spotify/2.png',
+                    '/static/img/work/spotify/3.png',
+                    '/static/img/work/spotify/4.png',
+                    '/static/img/work/spotify/5.png',
+                    '/static/img/work/spotify/6.png',
+                    '/static/img/work/spotify/7.png',
+                    '/static/img/work/spotify/8.png',
+                    '/static/img/work/spotify/9.png',
+                    '/static/img/work/spotify/10.png',
                 ],
                 'url': 'http://www.spotifypremium.ge/en',
                 'url_name': 'www.spotifypremium.ge',
@@ -157,6 +206,70 @@ export default class LatestWorks extends Component {
                         <br />
                         <br />
                         Get discount when purchasing at least the 3-month subscription.
+
+                        `
+            },
+            {
+                'status': false,
+                'intranet': false,
+                'title': 'CINEMAX',
+                'images': [
+                    '/static/img/work/cinemax/1.png',
+                    '/static/img/work/cinemax/2.png',
+                    '/static/img/work/cinemax/3.png',
+                    '/static/img/work/cinemax/4.png',
+                    '/static/img/work/cinemax/5.png',
+                    '/static/img/work/cinemax/6.png',
+                    '/static/img/work/cinemax/7.png',
+                    '/static/img/work/cinemax/8.png',
+                    '/static/img/work/cinemax/9.png',
+                ],
+                'url': 'http://www.cinemax.ge/',
+                'url_name': 'www.cinemax.ge',
+                'category': 'Web Development',
+                'tags': `LARAVEL, PHP, MYSQL, VUE`,
+                'desc': `This is simple ecommerce web application, built on top of LARAVEL and VUE.JS.
+                        
+                        <br />
+                        <br />
+                         This application no more operates on Georgian market, it was a simple eCommerce 
+                         solution to buy cinema tickets online, was very UI/UX friendly app but unfortunately,
+                         it was not a successful application. So just a few months ago this went down... :(
+                        `
+            },
+            {
+                'status': true,
+                'intranet': true,
+                'title': 'BTI Translation',
+                'images': [
+                    '/static/img/work/bti/1.png',
+                    '/static/img/work/bti/2.png',
+                    '/static/img/work/bti/3.png',
+                    '/static/img/work/bti/4.png',
+                    '/static/img/work/bti/5.png',
+                    '/static/img/work/bti/6.png',
+                    '/static/img/work/bti/7.png',
+                ],
+                'url': 'javascript:void(0)',
+                'url_name': 'Intranet APP',
+                'category': 'Web Development',
+                'tags': `LARAVEL, PHP, MYSQL, VUE`,
+                'desc': `This is simple web application, built on top of LARAVEL and VUE.JS.
+                        
+                        <br />
+                        <br />
+                        This application runs for France video translation company "BTI", 
+                        That operates in media for more than 15 years. This is an intranet 
+                        application for company managers to manage translation tasks, manage 
+                        video timing and history of translated videos, they are able to test 
+                        each other translated videos, make some comments on them, have some 
+                        chatting and if everything goes okay they validating videos.
+
+                        <br />
+                        <br />
+
+                        This application helps employees to more easily manage their time, 
+                        and be more productive.
 
                         `
             }
@@ -194,7 +307,11 @@ export default class LatestWorks extends Component {
 
                                 <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
                                     <p>
-                                        <a href={item.url} target="_blank">{item.url_name}</a>
+                                        {!item.intranet && item.status && <a href={item.url} target="_blank">{item.url_name}</a>}
+
+                                        {item.intranet && <strong>Intranet Application (Access Forbiden)</strong>}
+                                        {!item.status && <strong>Unfortunately application is dead</strong>}
+
                                     </p>
                                     <p>
                                         <strong>{item.category}: </strong> {item.tags}
@@ -203,9 +320,9 @@ export default class LatestWorks extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-6 ">
-                                <Carousel  showThumbs={false} showStatus={false} emulateTouch>
+                                <Carousel showThumbs={true} showStatus={false} showIndicators={false} emulateTouch>
                                     {item.images.map((image, key) => (<div key={key}>
-                                        <img className="img-fluid"  src={image} alt="" />
+                                        <img className="img-fluid" src={image} alt="" />
                                     </div>))}
                                 </Carousel>
                             </div>
@@ -222,6 +339,11 @@ export default class LatestWorks extends Component {
                         position: relative;
                         text-align: center;
                         background: white !important;
+                    }
+
+                    .carousel .control-prev.control-arrow:before {
+                        border-right: 8px solid #0c0c0c !important;
+                        margin-right: 10px;
                     }
                                     
                 `}</style>
