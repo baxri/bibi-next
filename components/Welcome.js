@@ -27,6 +27,9 @@ export default class Welcome extends Component {
                                     </Link>
                                 </div>
                             </div>
+                            <div className="banner-img col-lg-6 col-md-6 align-self-end" >	
+                                <img className="img-fluid avatar" src="/static/img/me.jpg" alt="" />	
+                            </div>
                         </div>
                     </div>
                 </section>
