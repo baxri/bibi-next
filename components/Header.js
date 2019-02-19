@@ -48,6 +48,11 @@ class Header extends Component {
                                             <a className={pathname === '/latest-works' ? 'nav-link active' : 'nav-link'} href="#">latest-works</a>
                                         </Link>
                                     </li>
+                                    <li className="nav-item">
+                                        <Link href="/schedule-time" >
+                                            <a className={pathname === '/schedule-time' ? 'nav-link active' : 'nav-link'} href="#">Schedule Time</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -73,7 +78,12 @@ class Header extends Component {
                         </li>
                         <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
                             <Link href="/latest-works" >
-                                <a className={pathname === '/latest-works' ? 'nav-link active' : 'nav-link'} href="#">latest-works</a>
+                                <a className={pathname === '/latest-works' ? 'nav-link active' : 'nav-link'} href="#">latest works</a>
+                            </Link>
+                        </li>
+                        <li className="d-flex hidden-menu-navbar-item nav-item justify-content-center">
+                            <Link href="/schedule-time" >
+                                <a className={pathname === '/schedule-time' ? 'nav-link active' : 'nav-link'} href="#">Schedule Time</a>
                             </Link>
                         </li>
                     </ul>

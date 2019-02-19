@@ -95,17 +95,18 @@ export default class MyStatus extends Component {
     render() {
 
         const { time, status } = this.state;
+        const { animation } = this.props;
 
         return (
             <div>
 
-                <div className={"me wow fadeInLeft mb-3 " + status} data-wow-duration="1s" data-wow-delay="1s">
+                <div className={"me  mb-3 " + status + " " + (animation ? "wow fadeInLeft" : "")} data-wow-duration="1s" data-wow-delay="1s">
                     {this.state.time} -  &nbsp; {status == 'weekend' && ' WEEKEND - '}
 
                     {status == 'morning-coffee' && "I'm getting morning coffee right now and starting my working session ;)"}
                     {status == 'morning-working-hours' && "I have my morning working session right now, my day starts before the day starts 4:00 AM ..."}
                     {status == 'already-worked-five-hours' && "I already worked 5 hours today from 4:00 AM looking forward I have a 16 hour working session today ..."}
-                    {status == 'on-my-way-to-office' && "Wait wait wait..., I'm on my way to office will active in a few minutes ... :)"}
+                    {status == 'on-my-way-to-office' && "I'm on my way to office will active in a few minutes ... :)"}
 
                     {status == 'coffee-break' && "I have coffee break at my office will be available in less than hour ;)"}
                     {status == 'last-two-hours' && "Hmm... now I have the most difficult part in my day time... #lasttwohours #feelingsleepy #needfamily... from 7:00 pm I have family time ..."}
@@ -117,10 +118,10 @@ export default class MyStatus extends Component {
 
                     {/* Default status */}
                     {status == 'active' && "I'm active right now will be available until 7:00 PM then I have a family and bed time ..."}
-                    
+
                     {/* Weekend */}
                     {status == 'weekend' && "Sorrrry nnow is weeken dd ??!... #drunk #beer #toomuchalcohol... Sorry for typos I am drun kkk :D :D "}
-                    
+
 
                 </div>
 
