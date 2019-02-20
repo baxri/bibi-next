@@ -3,21 +3,23 @@ const router = express.Router();
 const joi = require('joi');
 
 
-router.get('/send-email/', (req, res) => {
+router.post('/login/', (req, res) => {
 
     const schema = {
-        text: joi.string().required(),
+        email: joi.string().required().email(),
+        password: joi.string().required(),
     }
 
-    const { error } = joi.validate(req.query, schema);
+    console.log(req.params)
 
-    if (error) {
-        res.status(400).send(error.details);
-    }
+    // const { error } = joi.validate(req.query, schema);
+
+    // if (error) {
+    //     res.status(400).send(error.details);
+    // }
 
     res.send({
-        // id: req.params.id,
-        id: req.query.id,
+        ok: true
     });
 });
 

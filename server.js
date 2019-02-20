@@ -13,8 +13,8 @@ nextApp.prepare().then(() => {
 
     const app = express();
 
-    app.use('/', routes);
-
+    app.use('/api', routes);
+   
     app.get('*', (req, res) => {
         return handle(req, res);
     });
