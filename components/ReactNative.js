@@ -52,6 +52,115 @@ export default class ReactNative extends Component {
                         `
             },
             {
+                'status': false,
+                'intranet': false,
+                'intro': false,
+                'id': 'gitrak',
+                'title': 'GiTRAK',
+                'images': [
+                    '/static/img/react-native/gitrak/1.png',
+                    '/static/img/react-native/gitrak/2.png',
+                    '/static/img/react-native/gitrak/3.png',
+                    '/static/img/react-native/gitrak/4.png',
+                    '/static/img/react-native/gitrak/5.png',
+                    '/static/img/react-native/gitrak/6.png',
+                    '/static/img/react-native/gitrak/7.png',
+                    '/static/img/react-native/gitrak/8.png',
+                    '/static/img/react-native/gitrak/9.png',
+                    '/static/img/react-native/gitrak/10.png',
+                    '/static/img/react-native/gitrak/11.png',
+                    '/static/img/react-native/gitrak/12.png',
+                    '/static/img/react-native/gitrak/13.png',
+                    '/static/img/react-native/gitrak/14.png',
+                    '/static/img/react-native/gitrak/15.png',
+                    '/static/img/react-native/gitrak/16.png',
+                ],
+                'url': 'https://www.unicoin.io/',
+                'url_name': 'www.unicoin.io',
+                'category': 'Medical Software',
+                'tags': `React Native, React.js, Firebase, Redux`,
+                'desc': `
+                GiTRACK is an IOS application for a doctor and patient online communication. 
+                It is built on top of React Native, Firebase and Redux.
+
+                <br />
+                <br />
+                
+                The patient can register from the app and manage his daily diet, check for 
+                some suggestions and notify a doctor
+                if has some problems, schedule a call with a doctor.
+                       
+                        `
+            },
+            {
+                'status': false,
+                'intranet': false,
+                'intro': false,
+                'id': 'starcourse',
+                'title': 'StarCourse',
+                'images': [
+                    '/static/img/react-native/starcourse/5.png',
+                    '/static/img/react-native/starcourse/1.png',
+                    '/static/img/react-native/starcourse/2.png',
+                    '/static/img/react-native/starcourse/3.png',
+                    '/static/img/react-native/starcourse/4.png',
+                    '/static/img/react-native/starcourse/6.png',
+                    '/static/img/react-native/starcourse/7.png',
+                    '/static/img/react-native/starcourse/8.png',
+                    '/static/img/react-native/starcourse/9.png',
+                ],
+                'url': 'https://www.unicoin.io/',
+                'url_name': 'www.unicoin.io',
+                'category': 'Maps',
+                'tags': `React Native, Node.js, Firebase`,
+                'desc': `
+
+                StarCourse allows you to plan/book ahead multiple loads by selecting where you are now 
+                and where you want to be in a few days. Then with the help of our state-of-the-art freight 
+                search engine, we will locate a sequence of the MOST profitable loads taking into account total mileage,
+                driving time, deadhead mileage, fuel and toll costs.
+                <br />
+                <br />
+                Unlike some competitor tools that limit the amount of loads per trip and don’t calculate profitability, 
+                our Load Planner returns multiple trips each consisting of one or more loads with total revenue/profitability analysis.
+
+                        `
+            },
+            {
+                'status': true,
+                'intranet': false,
+                'intro': false,
+                'id': 'greetingwithcrypto',
+                'title': 'GreetingWithCrypto',
+                'images': [
+                    '/static/img/react-native/greetingwithcrypto/1.png',
+                    '/static/img/react-native/greetingwithcrypto/2.png',
+                    '/static/img/react-native/greetingwithcrypto/3.png',
+                    '/static/img/react-native/greetingwithcrypto/4.png',
+                    '/static/img/react-native/greetingwithcrypto/5.png',
+                    '/static/img/react-native/greetingwithcrypto/6.png',
+                    '/static/img/react-native/greetingwithcrypto/7.png',
+                ],
+                'url': 'https://greetingswithcrypto.com/',
+                'url_name': 'greetingswithcrypto.com',
+                'category': 'Gifts',
+                'tags': `React Native, Node.js, Firebase`,
+                'desc': `
+
+                Cryptocurrency Greeting Cards. Choose the perfect card for the occasion. Personalize it by adding a message.
+                <br />
+                Enter the value using a dollar amount. We'll convert it to cryptocurrency using the current market price.
+                <br />
+                Used only to send your Recipient a verification code.
+                <br />
+                A full refund will be sent to this address if funds are not claimed within 3 months.
+                <br />
+                Pay using your crypto wallet and bam you're done!
+                <br />
+                <br />
+                        `
+            },
+            {
                 'status': true,
                 'intranet': true,
                 'intro': false,
@@ -117,50 +226,7 @@ export default class ReactNative extends Component {
 
                         `
             },
-            {
-                'status': false,
-                'intranet': false,
-                'intro': false,
-                'id': 'gitrak',
-                'title': 'GiTRAK',
-                'images': [
-                    '/static/img/react-native/gitrak/1.png',
-                    '/static/img/react-native/gitrak/2.png',
-                    '/static/img/react-native/gitrak/3.png',
-                    '/static/img/react-native/gitrak/4.png',
-                    '/static/img/react-native/gitrak/5.png',
-                    '/static/img/react-native/gitrak/6.png',
-                    '/static/img/react-native/gitrak/7.png',
-                    '/static/img/react-native/gitrak/8.png',
-                    '/static/img/react-native/gitrak/9.png',
-                    '/static/img/react-native/gitrak/10.png',
-                    '/static/img/react-native/gitrak/11.png',
-                    '/static/img/react-native/gitrak/12.png',
-                    '/static/img/react-native/gitrak/13.png',
-                    '/static/img/react-native/gitrak/14.png',
-                    '/static/img/react-native/gitrak/15.png',
-                    '/static/img/react-native/gitrak/16.png',
-                ],
-                'url': 'https://www.unicoin.io/',
-                'url_name': 'www.unicoin.io',
-                'category': 'Medical Software',
-                'tags': `React Native, React.js, Firebase, Redux`,
-                'desc': `
-                GiTRACK is an IOS application for a doctor and patient online communication. 
-                It is built on top of React Native, Firebase and Redux.
 
-                <br />
-                <br />
-                
-                The patient can register from the app and manage his daily diet, check for 
-                some suggestions and notify a doctor
-                if has some problems, schedule a call with a doctor.
-
-
-                        
-                       
-                        `
-            },
 
 
         ];
