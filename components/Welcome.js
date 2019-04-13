@@ -13,6 +13,7 @@ export default class Welcome extends Component {
                         <div className="row fullscreen">
                             <div className="banner-content col-lg-6 col-md-12 justify-content-center d-flex flex-direction-column align-items-center ">
                                 <div>
+                                    <div className="wow fadeInDown"> <MyStatus /></div>
                                     <h1 className="wow fadeInDown" data-wow-duration="1s">GEORGE <span className="bibi">BIBI</span>LASHVILI</h1>
                                     <div className="designation mb-70 wow fadeInDown" data-wow-duration="1s" >
                                         Full Stack
@@ -27,8 +28,8 @@ export default class Welcome extends Component {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="banner-img col-lg-6 col-md-6 align-self-end" >	
-                                <img className="img-fluid avatar" src="/static/img/me.jpg" alt="" />	
+                            <div className="banner-img col-lg-6 col-md-6 align-self-end" >
+                                <img className="img-fluid avatar" src="/static/img/me.jpg" alt="" />
                             </div>
                         </div>
                     </div>

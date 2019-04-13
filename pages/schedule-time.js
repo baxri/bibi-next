@@ -21,7 +21,7 @@ export default class ScheduleTIme extends Component {
                                         <strong>Current Activity</strong>
                                         <br />
                                         <br />
-                                        <MyStatus animation={false} />
+                                        <MyStatus  />
                                     </p>
                                     <hr />
                                     <p>If you want to build a business online we can have a word,

@@ -129,17 +129,8 @@ export default class MyStatus extends Component {
 
                     .weekend{
                         margin-bottom: -50px;
-                        margin-left: -20px;
                         max-width: 400px;
                     }
-
-                    /* .sleeping{
-                        background-color: red;
-                    }
-
-                    .family{
-                        background-color: #00dcff;
-                    } */
                 
                 `}</style>
             </div>
