@@ -121,8 +121,6 @@ export default class MyStatus extends Component {
 
                     {/* Weekend */}
                     {status == 'weekend' && "Sorrrry nnow is weeken dd ??!... #drunk #beer #toomuchalcohol... Sorry for typos I am drun kkk :D :D "}
-
-
                 </div>
 
                 <style jsx>{`
