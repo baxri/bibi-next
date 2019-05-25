@@ -96,6 +96,49 @@ export default class ReactNative extends Component {
                 'status': false,
                 'intranet': false,
                 'intro': false,
+                'id': 'taxiapp',
+                'title': 'TaxiApp',
+                'images': [
+                    '/static/img/react-native/taxiapp/1.png',
+                    '/static/img/react-native/taxiapp/2.png',
+                    '/static/img/react-native/taxiapp/3.png',
+                    '/static/img/react-native/taxiapp/4.png',
+                    '/static/img/react-native/taxiapp/5.png',
+                    '/static/img/react-native/taxiapp/6.png',
+
+                ],
+                'url': 'https://www.taxiapp.io/',
+                'url_name': 'www.taxiapp.io',
+                'category': 'Case Study',
+                'tags': `React Native, React.js, Socket.io, Node.js`,
+                'desc': `
+                This is simple demonstraiton app for IOS and android. 
+                
+                The technologies I am using are the most in demand technologies at the moment!
+                <br />
+                <br />
+                I am using technologies such as:
+                <br />
+                <br />
+                React Native
+                <br />
+                NodeJS
+                <br />
+                MongoDB   <br />
+
+                Socket.io
+                <br />
+                <br />
+                All written using the newest additions from JavaScript ES7 of course! 
+                <br />
+                <br />
+                Github repo: <a href="https://github.com/baxri/taxi-app" target="_blank">TaxiApp</a>
+               `
+            },
+            {
+                'status': false,
+                'intranet': false,
+                'intro': false,
                 'id': 'starcourse',
                 'title': 'StarCourse',
                 'images': [
