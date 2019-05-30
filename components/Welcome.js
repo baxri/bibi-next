@@ -5,7 +5,7 @@ import Socials from "./Socials";
 import MyStatus from "./MyStatus";
 
 export default class Welcome extends Component {
-    
+
     render() {
         return (
             <div>
@@ -35,7 +35,6 @@ export default class Welcome extends Component {
                         </div>
                     </div>
                 </section>
-
                 <style jsx>{`
 
                 .fullscreen{
