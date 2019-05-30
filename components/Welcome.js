@@ -6,6 +6,7 @@ import MyStatus from "./MyStatus";
 
 export default class Welcome extends Component {
     
+    
     render() {
         return (
             <div>
