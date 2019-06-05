@@ -5,6 +5,7 @@ import AboutMyself from "../components/About";
 import LatestWorks from "../components/LatestWorks";
 import Welcome from "../components/Welcome";
 
+import css from '../static/css/empty.css'
 
 export default class Index extends Component {
     render() {
