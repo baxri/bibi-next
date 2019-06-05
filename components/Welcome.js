@@ -36,7 +36,6 @@ export default class Welcome extends Component {
                     </div>
                 </section>
                 <style jsx>{`
-
                 .fullscreen{
                     height: 100vh;
                 }
