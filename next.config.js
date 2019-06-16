@@ -4,7 +4,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const nextConfig = {
 
     generateInDevMode: true,
-    // dontAutoRegisterSw: true,
 
     workboxOpts: {
         importScripts: ['/sw-push-listener.js']
@@ -21,6 +20,7 @@ const nextConfig = {
         return config;
     },
 }
+
 
 
 module.exports = withOffline(nextConfig)

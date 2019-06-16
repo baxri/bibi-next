@@ -11,16 +11,15 @@ class MyApp extends App {
             pageProps = await Component.getInitialProps(ctx);
         }
 
-        
+
         return { pageProps };
     }
 
-    // componentDidMount() {
-    //     register()
-    // }
-    // componentWillUnmount() {
-    //     unregister()
-    // }
+    componentDidMount() {
+        Notification.requestPermission(function (status) {
+            console.log('Notification permission status:', status);
+        });
+    }
 
     render() {
         const { Component, pageProps } = this.props;
