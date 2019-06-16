@@ -1,6 +1,7 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import Head from 'next/head';
+import { register, unregister } from 'next-offline/runtime'
 
 class MyApp extends App {
     static async getInitialProps({ Component, ctx }) {
@@ -10,7 +11,15 @@ class MyApp extends App {
             pageProps = await Component.getInitialProps(ctx);
         }
 
+        
         return { pageProps };
+    }
+
+    componentDidMount() {
+        register()
+    }
+    componentWillUnmount() {
+        unregister()
     }
 
     render() {
