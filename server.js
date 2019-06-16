@@ -1,6 +1,5 @@
 const next = require('next');
 const express = require('express');
-const { parse } = require('url')
 const { join } = require('path')
 
 const dev = process.env.NODE_ENV !== 'production';
@@ -18,6 +17,7 @@ nextApp.prepare().then(() => {
     app.use('/api', routes);
 
     app.use('/service-worker.js', express.static(join(__dirname, '.next', '/service-worker.js')))
+    app.use('/sw-push-listener.js', express.static(join(__dirname, '.next', '/sw-push-listener.js')))
 
     app.get('*', (req, res) => {
         return handle(req, res);

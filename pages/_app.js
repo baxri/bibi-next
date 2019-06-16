@@ -15,12 +15,12 @@ class MyApp extends App {
         return { pageProps };
     }
 
-    componentDidMount() {
-        register()
-    }
-    componentWillUnmount() {
-        unregister()
-    }
+    // componentDidMount() {
+    //     register()
+    // }
+    // componentWillUnmount() {
+    //     unregister()
+    // }
 
     render() {
         const { Component, pageProps } = this.props;
