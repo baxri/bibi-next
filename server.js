@@ -15,6 +15,7 @@ nextApp.prepare().then(() => {
 
     app.use('/api', routes);
    
+    
     app.get('*', (req, res) => {
         return handle(req, res);
     });
