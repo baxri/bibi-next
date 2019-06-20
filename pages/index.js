@@ -7,6 +7,8 @@ import Welcome from "../components/Welcome";
 
 import css from '../static/css/empty.css'
 
+
+
 export default class Index extends Component {
     render() {
         return (
