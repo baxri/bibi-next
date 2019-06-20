@@ -1,7 +1,6 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { withRouter } from 'next/router'
 
-
 class MyDocument extends Document {
 
     constructor(props) {
