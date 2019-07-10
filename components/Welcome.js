@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Socials from "./Socials";
 import MyStatus from "./MyStatus";
 
-
 export default class Welcome extends Component {
     
     render() {
