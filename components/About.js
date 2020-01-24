@@ -18,7 +18,7 @@ export default class About extends Component {
                         <br />
                         Skills I am good at:
                         <br />
-                        <strong>Laravel, NodeJS, React, NextJS, React Native, Vue, Redux, MySQL, MongoDB</strong>
+                        <strong>React Native / React / Laravel / Node / Redux / GraphQL</strong>
 
                         `,
                 desc2: `During these years I launched many interesting projects in the Georgian market mostly in eCommerce and 

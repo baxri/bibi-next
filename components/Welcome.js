@@ -19,7 +19,7 @@ export default class Welcome extends Component {
                                     <div className="designation mb-70 wow fadeInDown" data-wow-duration="1s" >
                                         Full Stack
 						        <span className="designer"> Web Developer</span>
-                                        <p className="skills">Laravel, NodeJS, React, NextJS React Native, Redux </p>
+                                        <p className="skills">React Native / React / Laravel / Node / Redux / GraphQL </p>
                                         <Socials align="start" />
                                     </div>
                                     <Link href="/latest-works">
