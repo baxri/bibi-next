@@ -394,3 +394,4 @@ export default class ReactNative extends Component {
     );
   }
 }
+
