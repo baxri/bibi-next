@@ -1,43 +1,40 @@
-import React, { Component } from 'react'
-import { Carousel } from 'react-responsive-carousel';
+import React, { Component } from "react";
+import { Carousel } from "react-responsive-carousel";
 
 export default class LatestWorks extends Component {
-    render() {
-
-        const works = [
-
-            {
-                'id': 'unipay',
-                'status': true,
-                'intranet': false,
-                'title': 'UniPAY',
-                'images': [
-                    '/static/img/work/unipay/1.png',
-                    '/static/img/work/unipay/2.png',
-                    '/static/img/work/unipay/3.png',
-                    '/static/img/work/unipay/4.png',
-                    '/static/img/work/unipay/5.png',
-                    '/static/img/work/unipay/6.png',
-                    '/static/img/work/unipay/7.png',
-                    '/static/img/work/unipay/8.png',
-                    '/static/img/work/unipay/9.png',
-                    '/static/img/work/unipay/10.png',
-                    '/static/img/work/unipay/11.png',
-                    '/static/img/work/unipay/12.png',
-                    '/static/img/work/unipay/13.png',
-                    '/static/img/work/unipay/14.png',
-                    '/static/img/work/unipay/15.png',
-                    '/static/img/work/unipay/16.png',
-                    '/static/img/work/unipay/17.png',
-                    '/static/img/work/unipay/18.png',
-                    '/static/img/work/unipay/19.png',
-
-                ],
-                'url': 'https://unipay.com/en',
-                'url_name': 'www.unipay.com',
-                'category': 'Ecommerce Software',
-                'tags': `Laravel, React.js, Next.js, Node.js, Nginx, Mongodb, REST, SOAP, Payment-gateway-integration, Mysql, PHP`,
-                'desc': `UniPAY offers universal payment system in Georgia. 
+  render() {
+    const works = [
+      {
+        id: "unipay",
+        status: true,
+        intranet: false,
+        title: "UniPAY",
+        images: [
+          "/static/img/work/unipay/1.png",
+          "/static/img/work/unipay/2.png",
+          "/static/img/work/unipay/3.png",
+          "/static/img/work/unipay/4.png",
+          "/static/img/work/unipay/5.png",
+          "/static/img/work/unipay/6.png",
+          "/static/img/work/unipay/7.png",
+          "/static/img/work/unipay/8.png",
+          "/static/img/work/unipay/9.png",
+          "/static/img/work/unipay/10.png",
+          "/static/img/work/unipay/11.png",
+          "/static/img/work/unipay/12.png",
+          "/static/img/work/unipay/13.png",
+          "/static/img/work/unipay/14.png",
+          "/static/img/work/unipay/15.png",
+          "/static/img/work/unipay/16.png",
+          "/static/img/work/unipay/17.png",
+          "/static/img/work/unipay/18.png",
+          "/static/img/work/unipay/19.png"
+        ],
+        url: "https://unipay.com/en",
+        url_name: "www.unipay.com",
+        category: "Ecommerce Software",
+        tags: `Laravel, React.js, Next.js, Node.js, Nginx, Mongodb, REST, SOAP, Payment-gateway-integration, Mysql, PHP`,
+        desc: `UniPAY offers universal payment system in Georgia. 
                         We launched this project a few years ago for the Georgian market and now 
                         I am handling more than 500K users and more than 100 transactions per second.
                         I built and optimized this application with PHP and NODEJS microservices that uses MYSQL database, 
@@ -57,38 +54,72 @@ export default class LatestWorks extends Component {
                         <br />
                         <strong>Continue scrolling...</strong>
                         `
+      },
+      {
+        id: "bridge",
+        status: true,
+        intranet: false,
+        title: "Bridge",
+        images: [
+          "/static/img/work/bridge/1.png",
+          "/static/img/work/bridge/2.png",
+          "/static/img/work/bridge/3.png",
+          "/static/img/work/bridge/4.png",
+          "/static/img/work/bridge/5.png",
+          "/static/img/work/bridge/6.png",
+          "/static/img/work/bridge/7.png"
+        ],
+        url: "https://brdg.app/",
+        url_name: "brdg.app",
+        category: "Social Network",
+        tags: `REDUX, postgresql, socket.io, react.js, node.js, Ruby on rails`,
+        desc: `
+        Our brand is our promise to our customers.
 
+        We believe that introductions are life changing.
+        
+        Introductions are the bridges between 2 people.
+        
+        Connectors build bridges that change lives.
 
-            },
-            {
-                'id': 'unicoin',
-                'status': true,
-                'intranet': false,
-                'title': 'UniCOIN.io',
-                'images': [
-                    '/static/img/work/unicoin/2.png',
-                    '/static/img/work/unicoin/3.png',
-                    '/static/img/work/unicoin/4.png',
-                    '/static/img/work/unicoin/5.png',
-                    '/static/img/work/unicoin/6.png',
-                    '/static/img/work/unicoin/7.png',
-                    '/static/img/work/unicoin/8.png',
-                    '/static/img/work/unicoin/9.png',
-                    '/static/img/work/unicoin/10.png',
-                    '/static/img/work/unicoin/11.png',
-                    '/static/img/work/unicoin/12.png',
-                    '/static/img/work/unicoin/13.png',
-                    '/static/img/work/unicoin/14.png',
-                    '/static/img/work/unicoin/15.png',
-                    '/static/img/work/unicoin/16.png',
-                    '/static/img/work/unicoin/17.png',
-                    '/static/img/work/unicoin/18.png',
-                ],
-                'url': 'https://www.unicoin.io/',
-                'url_name': 'www.unicoin.io',
-                'category': 'Ecommerce Software',
-                'tags': `REDUX, postgresql, socket.io, react.js, node.js, laravel-framework, php`,
-                'desc': `This website is also for the Georgian market. We launched this project just a two months ago and 
+        <br />
+        <br />
+        
+        Our product is the primary medium for how we solve problems for Connectors. 
+
+        Our success is measured in successful outcomes for Connectors.
+               
+                `
+      },
+      {
+        id: "unicoin",
+        status: false,
+        intranet: false,
+        title: "UniCOIN.io",
+        images: [
+          "/static/img/work/unicoin/2.png",
+          "/static/img/work/unicoin/3.png",
+          "/static/img/work/unicoin/4.png",
+          "/static/img/work/unicoin/5.png",
+          "/static/img/work/unicoin/6.png",
+          "/static/img/work/unicoin/7.png",
+          "/static/img/work/unicoin/8.png",
+          "/static/img/work/unicoin/9.png",
+          "/static/img/work/unicoin/10.png",
+          "/static/img/work/unicoin/11.png",
+          "/static/img/work/unicoin/12.png",
+          "/static/img/work/unicoin/13.png",
+          "/static/img/work/unicoin/14.png",
+          "/static/img/work/unicoin/15.png",
+          "/static/img/work/unicoin/16.png",
+          "/static/img/work/unicoin/17.png",
+          "/static/img/work/unicoin/18.png"
+        ],
+        url: "https://www.unicoin.io/",
+        url_name: "www.unicoin.io",
+        category: "Ecommerce Software",
+        tags: `REDUX, postgresql, socket.io, react.js, node.js, laravel-framework, php`,
+        desc: `This website is also for the Georgian market. We launched this project just a two months ago and 
                         already have more 30K users. this is a digital cryptocurrency wallet. 
                         you can buy, sell or transfer any kind of cryptocurrencies here, like Bitcoin, 
                         LiteCoin, DogeCoin, Xrp, Etherium etc. The technologies I decided to use on this project are 
@@ -99,28 +130,26 @@ export default class LatestWorks extends Component {
                         <br />
                         <strong>Continue scrolling...</strong>
                         `
-
-
-            },
-            {
-                'id': 'railway',
-                'status': true,
-                'intranet': false,
-                'title': 'Railway Tickets',
-                'images': [
-                    '/static/img/work/matarebeli/1.png',
-                    '/static/img/work/matarebeli/2.png',
-                    '/static/img/work/matarebeli/3.png',
-                    '/static/img/work/matarebeli/4.png',
-                    '/static/img/work/matarebeli/5.png',
-                    '/static/img/work/matarebeli/6.png',
-                    '/static/img/work/matarebeli/7.png',
-                ],
-                'url': 'http://www.matarebeli.ge/en/home',
-                'url_name': 'www.matarebeli.ge',
-                'category': 'Web Development',
-                'tags': `mysql-programming, react-native, node.js, laravel-framework, php`,
-                'desc': `Next successful project is www.matarebeli.ge ...  "matarebeli" 
+      },
+      {
+        id: "railway",
+        status: true,
+        intranet: false,
+        title: "Railway Tickets",
+        images: [
+          "/static/img/work/matarebeli/1.png",
+          "/static/img/work/matarebeli/2.png",
+          "/static/img/work/matarebeli/3.png",
+          "/static/img/work/matarebeli/4.png",
+          "/static/img/work/matarebeli/5.png",
+          "/static/img/work/matarebeli/6.png",
+          "/static/img/work/matarebeli/7.png"
+        ],
+        url: "http://www.matarebeli.ge/en/home",
+        url_name: "www.matarebeli.ge",
+        category: "Web Development",
+        tags: `mysql-programming, react-native, node.js, laravel-framework, php`,
+        desc: `Next successful project is www.matarebeli.ge ...  "matarebeli" 
                         means "Train" in the Georgian so as you guess you can buy some Georgian 
                         railway tickets here. if you ever come to Georgia you probably need to buy
                         railway tickets on my website.
@@ -138,31 +167,31 @@ export default class LatestWorks extends Component {
                             <br />
                             <strong>Continue scrolling...</strong>
                             `
-            },
-            {
-                'id': 'domains',
-                'status': true,
-                'intranet': false,
-                'title': '.GE Domains',
-                'images': [
-                    '/static/img/work/domains/1.png',
-                    '/static/img/work/domains/2.png',
-                    '/static/img/work/domains/3.png',
-                    '/static/img/work/domains/4.png',
-                    '/static/img/work/domains/5.png',
-                    '/static/img/work/domains/6.png',
-                    '/static/img/work/domains/7.png',
-                    '/static/img/work/domains/8.png',
-                    '/static/img/work/domains/9.png',
-                    '/static/img/work/domains/10.png',
-                    '/static/img/work/domains/11.png',
-                    '/static/img/work/domains/12.png',
-                ],
-                'url': 'https://ge.domains',
-                'url_name': 'ge.domains',
-                'category': 'Web Development',
-                'tags': `LARAVEL, PHP, MYSQL, REACT, NEXT.JS`,
-                'desc': `This web application is also for the Georgian market. 
+      },
+      {
+        id: "domains",
+        status: true,
+        intranet: false,
+        title: ".GE Domains",
+        images: [
+          "/static/img/work/domains/1.png",
+          "/static/img/work/domains/2.png",
+          "/static/img/work/domains/3.png",
+          "/static/img/work/domains/4.png",
+          "/static/img/work/domains/5.png",
+          "/static/img/work/domains/6.png",
+          "/static/img/work/domains/7.png",
+          "/static/img/work/domains/8.png",
+          "/static/img/work/domains/9.png",
+          "/static/img/work/domains/10.png",
+          "/static/img/work/domains/11.png",
+          "/static/img/work/domains/12.png"
+        ],
+        url: "https://ge.domains",
+        url_name: "ge.domains",
+        category: "Web Development",
+        tags: `LARAVEL, PHP, MYSQL, REACT, NEXT.JS`,
+        desc: `This web application is also for the Georgian market. 
                         We launched this project just a few months ago and now this is 
                         one best registrator in Georgia with more than 20K domains and users. 
                         You can buy and manage .ge domains, apply some name servers and you have all
@@ -176,30 +205,30 @@ export default class LatestWorks extends Component {
                             found was next.js with server-side rendering feature. It works great with LARAVEL 
                             API backend and NODEJS microservices.
 
-                        `,
-            },
-            {
-                'id': 'spotify',
-                'status': true,
-                'intranet': false,
-                'title': 'Spotify Premium',
-                'images': [
-                    '/static/img/work/spotify/1.png',
-                    '/static/img/work/spotify/2.png',
-                    '/static/img/work/spotify/3.png',
-                    '/static/img/work/spotify/4.png',
-                    '/static/img/work/spotify/5.png',
-                    '/static/img/work/spotify/6.png',
-                    '/static/img/work/spotify/7.png',
-                    '/static/img/work/spotify/8.png',
-                    '/static/img/work/spotify/9.png',
-                    '/static/img/work/spotify/10.png',
-                ],
-                'url': 'http://www.spotifypremium.ge/en',
-                'url_name': 'www.spotifypremium.ge',
-                'category': 'Web Development',
-                'tags': `LARAVEL, PHP, MYSQL, REACT, NEXT.JS`,
-                'desc': `This is simple web application, built on top of LARAVEL.
+                        `
+      },
+      {
+        id: "spotify",
+        status: true,
+        intranet: false,
+        title: "Spotify Premium",
+        images: [
+          "/static/img/work/spotify/1.png",
+          "/static/img/work/spotify/2.png",
+          "/static/img/work/spotify/3.png",
+          "/static/img/work/spotify/4.png",
+          "/static/img/work/spotify/5.png",
+          "/static/img/work/spotify/6.png",
+          "/static/img/work/spotify/7.png",
+          "/static/img/work/spotify/8.png",
+          "/static/img/work/spotify/9.png",
+          "/static/img/work/spotify/10.png"
+        ],
+        url: "http://www.spotifypremium.ge/en",
+        url_name: "www.spotifypremium.ge",
+        category: "Web Development",
+        tags: `LARAVEL, PHP, MYSQL, REACT, NEXT.JS`,
+        desc: `This is simple web application, built on top of LARAVEL.
                         <br />
                         <br />
                         How does it work?
@@ -213,28 +242,28 @@ export default class LatestWorks extends Component {
                         Get discount when purchasing at least the 3-month subscription.
 
                         `
-            },
-            {
-                'id': 'cinemax',
-                'status': false,
-                'intranet': false,
-                'title': 'CINEMAX',
-                'images': [
-                    '/static/img/work/cinemax/1.png',
-                    '/static/img/work/cinemax/2.png',
-                    '/static/img/work/cinemax/3.png',
-                    '/static/img/work/cinemax/4.png',
-                    '/static/img/work/cinemax/5.png',
-                    '/static/img/work/cinemax/6.png',
-                    '/static/img/work/cinemax/7.png',
-                    '/static/img/work/cinemax/8.png',
-                    '/static/img/work/cinemax/9.png',
-                ],
-                'url': 'http://www.cinemax.ge/',
-                'url_name': 'www.cinemax.ge',
-                'category': 'Web Development',
-                'tags': `LARAVEL, PHP, MYSQL, VUE`,
-                'desc': `This is simple ecommerce web application, built on top of LARAVEL and VUE.JS.
+      },
+      {
+        id: "cinemax",
+        status: false,
+        intranet: false,
+        title: "CINEMAX",
+        images: [
+          "/static/img/work/cinemax/1.png",
+          "/static/img/work/cinemax/2.png",
+          "/static/img/work/cinemax/3.png",
+          "/static/img/work/cinemax/4.png",
+          "/static/img/work/cinemax/5.png",
+          "/static/img/work/cinemax/6.png",
+          "/static/img/work/cinemax/7.png",
+          "/static/img/work/cinemax/8.png",
+          "/static/img/work/cinemax/9.png"
+        ],
+        url: "http://www.cinemax.ge/",
+        url_name: "www.cinemax.ge",
+        category: "Web Development",
+        tags: `LARAVEL, PHP, MYSQL, VUE`,
+        desc: `This is simple ecommerce web application, built on top of LARAVEL and VUE.JS.
                         
                         <br />
                         <br />
@@ -242,26 +271,26 @@ export default class LatestWorks extends Component {
                          solution to buy cinema tickets online, was very UI/UX friendly app but unfortunately,
                          it was not a successful application. So just a few months ago this went down... :(
                         `
-            },
-            {
-                'id': 'bti',
-                'status': true,
-                'intranet': true,
-                'title': 'BTI Translation',
-                'images': [
-                    '/static/img/work/bti/1.png',
-                    '/static/img/work/bti/2.png',
-                    '/static/img/work/bti/3.png',
-                    '/static/img/work/bti/4.png',
-                    '/static/img/work/bti/5.png',
-                    '/static/img/work/bti/6.png',
-                    '/static/img/work/bti/7.png',
-                ],
-                'url': 'javascript:void(0)',
-                'url_name': 'Intranet APP',
-                'category': 'Web Development',
-                'tags': `LARAVEL, PHP, MYSQL, VUE`,
-                'desc': `This is simple web application, built on top of LARAVEL and VUE.JS.
+      },
+      {
+        id: "bti",
+        status: true,
+        intranet: true,
+        title: "BTI Translation",
+        images: [
+          "/static/img/work/bti/1.png",
+          "/static/img/work/bti/2.png",
+          "/static/img/work/bti/3.png",
+          "/static/img/work/bti/4.png",
+          "/static/img/work/bti/5.png",
+          "/static/img/work/bti/6.png",
+          "/static/img/work/bti/7.png"
+        ],
+        url: "javascript:void(0)",
+        url_name: "Intranet APP",
+        category: "Web Development",
+        tags: `LARAVEL, PHP, MYSQL, VUE`,
+        desc: `This is simple web application, built on top of LARAVEL and VUE.JS.
                         
                         <br />
                         <br />
@@ -279,14 +308,12 @@ export default class LatestWorks extends Component {
                         and be more productive.
 
                         `
-            }
+      }
+    ];
 
-
-        ];
-
-        return (
-            <div>
-                {/* <section className="job-area section-gap-top ">
+    return (
+      <div>
+        {/* <section className="job-area section-gap-top ">
                     <div className="container">
                         <div className="row d-flex">
                             <div className="col-lg-12">
@@ -303,58 +330,75 @@ export default class LatestWorks extends Component {
                     </div>
                 </section> */}
 
+        {works.map((item, key) => (
+          <section
+            className="about-area section-gap-top"
+            data-wow-duration="1s"
+            id={item.id}
+            key={key}
+          >
+            <div className="container">
+              <div className="row align-items-center justify-content-between">
+                <div className="col-lg-5 col-md-12 about-right">
+                  <div className="section-title">
+                    <h2>{item.title}</h2>
+                  </div>
 
-                {works.map((item, key) => (<section className="about-area section-gap-top" data-wow-duration="1s" id={item.id} key={key}>
-                    <div className="container" >
-                        <div className="row align-items-center justify-content-between">
-                            <div className="col-lg-5 col-md-12 about-right">
-                                <div className="section-title">
-                                    <h2>{item.title}</h2>
-                                </div>
+                  <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
+                    <p>
+                      {!item.intranet && item.status && (
+                        <a href={item.url} target="_blank">
+                          {item.url_name}
+                        </a>
+                      )}
 
-                                <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
-                                    <p>
-                                        {!item.intranet && item.status && <a href={item.url} target="_blank">{item.url_name}</a>}
-
-                                        {item.intranet && <strong>Intranet Application (Access Forbiden)</strong>}
-                                        {!item.status && <strong>Unfortunately application is dead</strong>}
-
-                                    </p>
-                                    <p>
-                                        <strong>{item.category}: </strong> {item.tags}
-                                    </p>
-                                    <p dangerouslySetInnerHTML={{ __html: item.desc }}></p>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 ">
-                                <Carousel showThumbs={true} showStatus={false} showIndicators={false} emulateTouch>
-                                    {item.images.map((image, key) => (<div key={key}>
-                                        <img className="img-fluid" src={image} alt="" />
-                                    </div>))}
-                                </Carousel>
-                            </div>
-                        </div>
-                    </div>
-                </section>))}
-
-
-                <style global jsx>{`
-
-                    .carousel .slide {
-                        min-width: 100%;
-                        margin: 0;
-                        position: relative;
-                        text-align: center;
-                        background: white !important;
-                    }
-
-                    .carousel .control-prev.control-arrow:before {
-                        border-right: 8px solid #0c0c0c !important;
-                        margin-right: 10px;
-                    }
-                                    
-                `}</style>
+                      {item.intranet && (
+                        <strong>Intranet Application (Access Forbiden)</strong>
+                      )}
+                      {!item.status && (
+                        <strong>Unfortunately application is dead</strong>
+                      )}
+                    </p>
+                    <p>
+                      <strong>{item.category}: </strong> {item.tags}
+                    </p>
+                    <p dangerouslySetInnerHTML={{ __html: item.desc }}></p>
+                  </div>
+                </div>
+                <div className="col-lg-6 ">
+                  <Carousel
+                    showThumbs={true}
+                    showStatus={false}
+                    showIndicators={false}
+                    emulateTouch
+                  >
+                    {item.images.map((image, key) => (
+                      <div key={key}>
+                        <img className="img-fluid" src={image} alt="" />
+                      </div>
+                    ))}
+                  </Carousel>
+                </div>
+              </div>
             </div>
-        )
-    }
+          </section>
+        ))}
+
+        <style global jsx>{`
+          .carousel .slide {
+            min-width: 100%;
+            margin: 0;
+            position: relative;
+            text-align: center;
+            background: white !important;
+          }
+
+          .carousel .control-prev.control-arrow:before {
+            border-right: 8px solid #0c0c0c !important;
+            margin-right: 10px;
+          }
+        `}</style>
+      </div>
+    );
+  }
 }
