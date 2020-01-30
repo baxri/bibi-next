@@ -74,6 +74,15 @@ export default class LatestWorks extends Component {
         category: "Social Network",
         tags: `REDUX, postgresql, socket.io, react.js, node.js, Ruby on rails`,
         desc: `
+
+        Great startup with great guys, we spent over year to develope this application
+        My role was Fullstack web developer, working on:
+        
+        <br />
+        <br />
+        <strong>React Native / React.js / Ruby On Rails / PostgreSQL.</strong>
+        <br />
+        <br />
         Our brand is our promise to our customers.
 
         We believe that introductions are life changing.
@@ -88,6 +97,11 @@ export default class LatestWorks extends Component {
         Our product is the primary medium for how we solve problems for Connectors. 
 
         Our success is measured in successful outcomes for Connectors.
+
+        <br />
+        <br />
+
+        Want to build your own startup? you are at right place ;)
                
                 `
       },

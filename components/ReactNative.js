@@ -80,22 +80,36 @@ export default class ReactNative extends Component {
         category: "Social Network",
         tags: `React Native, React.js, Ruby on rails`,
         desc: `
-                Our brand is our promise to our customers.
 
-                We believe that introductions are life changing.
-                
-                Introductions are the bridges between 2 people.
-                
-                Connectors build bridges that change lives.
+        Great startup with great guys, we spent over year to develope this application
+        My role was Fullstack web developer, working on:
+        
+        <br />
+        <br />
+        <strong>React Native / React.js / Ruby On Rails / PostgreSQL.</strong>
+        <br />
+        <br />
+        Our brand is our promise to our customers.
 
-                <br />
-                <br />
-                
-                Our product is the primary medium for how we solve problems for Connectors. 
+        We believe that introductions are life changing.
+        
+        Introductions are the bridges between 2 people.
+        
+        Connectors build bridges that change lives.
 
-                Our success is measured in successful outcomes for Connectors.
-                       
-                        `
+        <br />
+        <br />
+        
+        Our product is the primary medium for how we solve problems for Connectors. 
+
+        Our success is measured in successful outcomes for Connectors.
+
+        <br />
+        <br />
+
+        Want to build your own startup? you are at right place ;)
+               
+                `
       },
       {
         status: false,
