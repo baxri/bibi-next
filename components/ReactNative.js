@@ -48,12 +48,12 @@ export default class ReactNative extends Component {
                          <strong>For more information about this app just scroll down...</strong>
                         `
       },
-      
+
       {
         status: true,
         intranet: false,
         intro: false,
-        id: "gitrak",
+        id: "bridge",
         title: "Bridge",
         images: [
           "/static/img/react-native/bridge/1.png",
