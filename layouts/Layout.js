@@ -46,7 +46,6 @@ class Layout extends Component {
                     {children}
                 </div>
 
-                <GoodAt />
                 <Contact />
 
                 <style jsx>{`
