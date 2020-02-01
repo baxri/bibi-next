@@ -40,7 +40,7 @@ export default class Welcome extends Component {
                       <span>Latest Works</span>
                     </a>
                   </Link>{" "}
-                  <Link href="#recognitions">
+                  <Link href="/recognitions">
                     <a
                       href="latest-works"
                       className="primary-btn"
