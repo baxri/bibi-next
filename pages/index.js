@@ -1,20 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 import Layout from "../layouts/Layout";
 import AboutMyself from "../components/About";
 import LatestWorks from "../components/LatestWorks";
 import Welcome from "../components/Welcome";
+import FeedBacks from "../components/FeedBacks";
 
-import css from '../static/css/empty.css'
+import css from "../static/css/empty.css";
 
 export default class Index extends Component {
-    render() {
-        return (
-            <Layout>
-                <Welcome />
-                <AboutMyself />
-                <LatestWorks />
-            </Layout>
-        )
-    }
+  render() {
+    return (
+      <Layout>
+        <Welcome />
+        <AboutMyself />
+        <LatestWorks />
+      </Layout>
+    );
+  }
 }

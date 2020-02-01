@@ -18,7 +18,7 @@ export default class Welcome extends Component {
                                     <h1 className="wow fadeInDown" data-wow-duration="1s">GEORGE <span className="bibi">BIBI</span>LASHVILI</h1>
                                     <div className="designation mb-70 wow fadeInDown" data-wow-duration="1s" >
                                         Full Stack
-						        <span className="designer"> Developer</span>
+						        <span className="designer"> Software Engineer</span>
                                         <p className="skills">React Native / React / Laravel / Node / Redux / GraphQL </p>
                                         <Socials align="start" />
                                     </div>
