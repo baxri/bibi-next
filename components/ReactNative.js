@@ -98,7 +98,7 @@ export default class ReactNative extends Component {
         status: true,
         intranet: false,
         intro: false,
-        id: "loomhigh",
+        id: "bloomhigh",
         title: "BLOOMHIGH",
         images: [
           "/static/img/react-native/bloomhigh/1.png",
@@ -130,7 +130,7 @@ export default class ReactNative extends Component {
          push boundaries, and get inspired by one another’s sense of passion, purpose, 
          journey, and stories of unyielding success.
 
-          Indeed, this is a new dawn in the age of professionalism.
+        Indeed, this is a new dawn in the age of professionalism.
                
         <br />
         <br />
