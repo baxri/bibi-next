@@ -4,49 +4,140 @@ import { Carousel } from "react-responsive-carousel";
 export default class ReactNative extends Component {
   render() {
     const works = [
+      // {
+      //   status: true,
+      //   intranet: true,
+      //   intro: true,
+      //   id: "react-native-intro",
+      //   title: "React Native",
+      //   images: [
+      //     "/static/img/react-native/intro/1.png",
+      //     "/static/img/react-native/intro/2.png",
+      //     "/static/img/react-native/intro/3.png",
+      //     "/static/img/react-native/intro/4.png",
+      //   ],
+      //   url: "https://www.unicoin.io/",
+      //   url_name: "www.unicoin.io",
+      //   category: "Ecommerce Software",
+      //   tags: `REDUX, postgresql, socket.io, react.js, node.js, laravel-framework, php`,
+      //   desc: `
+
+      //                   How I came in ReactNative world? I'll tell my story...
+      //                   Just two years ago when I started my work at France web and mobile development
+      //                    company "COMELSE" as a full stack web developer, we got one project from our
+      //                    client that he was needed an android application for intranet usage. Only for
+      //                    Android and only for the tablet version. No one from us knew java, objectiveC
+      //                    or swift,  so After too many researches, we had two choices:
+
+      //                    <a href="https://ionicframework.com/" target="_blank">Ionic</a>
+      //                   and
+      //                   <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>.
+
+      //                   One of the main differences is that using Ionic, you’ll be able to develop hybrid apps.
+      //                   these apps will be rendered in UIWebView for iOS and WebView for Android.
+
+      //                   <br />
+
+      //                   Nevertheless, using React Native, you can develop applications with the
+      //                   standard User Interface blocks. RN uses the native rendering APIs in Java
+      //                    for Android and Objective-C for iOS, consequently, by the way I already was good
+      //                    at react.js so we dicided to use React Native for our mobile development platform.
+      //                    <br />
+      //                    <br />
+      //                    <strong>For more information about this app just scroll down...</strong>
+      //                   `,
+      // },
+
       {
         status: true,
-        intranet: true,
-        intro: true,
-        id: "react-native-intro",
-        title: "React Native",
+        intranet: false,
+        intro: false,
+        id: "worx",
+        title: "Agency WorX",
         images: [
-          "/static/img/react-native/intro/1.png",
-          "/static/img/react-native/intro/2.png",
-          "/static/img/react-native/intro/3.png",
-          "/static/img/react-native/intro/4.png"
+          "/static/img/react-native/worx/1.png",
+          "/static/img/react-native/worx/2.png",
+          "/static/img/react-native/worx/3.png",
+          "/static/img/react-native/worx/4.png",
+          "/static/img/react-native/worx/5.png",
+          "/static/img/react-native/worx/6.png",
+          "/static/img/react-native/worx/7.png",
+          "/static/img/react-native/worx/8.png",
+          "/static/img/react-native/worx/9.png",
+          "/static/img/react-native/worx/10.png",
+          "/static/img/react-native/worx/11.png",
+          "/static/img/react-native/worx/12.png",
+          "/static/img/react-native/worx/13.png",
+          "/static/img/react-native/worx/14.png",
+          "/static/img/react-native/worx/15.png",
+          "/static/img/react-native/worx/16.png",
         ],
-        url: "https://www.unicoin.io/",
-        url_name: "www.unicoin.io",
-        category: "Ecommerce Software",
-        tags: `REDUX, postgresql, socket.io, react.js, node.js, laravel-framework, php`,
+        url: "https://apps.apple.com/us/app/agency-worx/id1342764189",
+        url_name: "Worx On Apple Store",
+        category: "Social Network",
+        tags: `React Native, React.js, Laravel`,
         desc: `
 
-                        How I came in ReactNative world? I'll tell my story...
-                        Just two years ago when I started my work at France web and mobile development
-                         company "COMELSE" as a full stack web developer, we got one project from our 
-                         client that he was needed an android application for intranet usage. Only for 
-                         Android and only for the tablet version. No one from us knew java, objectiveC 
-                         or swift,  so After too many researches, we had two choices:
+        The Job Worx app is the the quickest and most efficient way for job 
+        seekers to discover and apply to career opportunities with our premier
+        clients. Browse the latest and most relevant creative, technology, and 
+        administrative positions right from your phone. Notifications instantaneously 
+        alert you to immediate new jobs that open in your field of interest as well as 
+        allow you to track your application status in real time. Stay a step ahead of the 
+        competition by joining the fastest growing network in cutting-edge staffing.
+               
+        <br />
+        <br />
 
-                         <a href="https://ionicframework.com/" target="_blank">Ionic</a>
-                        and 
-                        <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>.
+        Want to build your own startup? you are at right place ;)
 
-                      
-                        One of the main differences is that using Ionic, you’ll be able to develop hybrid apps.
-                        these apps will be rendered in UIWebView for iOS and WebView for Android.
+                `,
+      },
 
-                        <br />
-                        
-                        Nevertheless, using React Native, you can develop applications with the 
-                        standard User Interface blocks. RN uses the native rendering APIs in Java
-                         for Android and Objective-C for iOS, consequently, by the way I already was good 
-                         at react.js so we dicided to use React Native for our mobile development platform. 
-                         <br />
-                         <br />
-                         <strong>For more information about this app just scroll down...</strong>
-                        `
+      {
+        status: true,
+        intranet: false,
+        intro: false,
+        id: "loomhigh",
+        title: "BLOOMHIGH",
+        images: [
+          "/static/img/react-native/bloomhigh/1.png",
+          "/static/img/react-native/bloomhigh/2.png",
+          "/static/img/react-native/bloomhigh/3.png",
+          "/static/img/react-native/bloomhigh/4.png",
+          "/static/img/react-native/bloomhigh/5.png",
+          "/static/img/react-native/bloomhigh/6.png",
+          "/static/img/react-native/bloomhigh/7.png",
+          "/static/img/react-native/bloomhigh/8.png",
+          "/static/img/react-native/bloomhigh/9.png",
+          "/static/img/react-native/bloomhigh/10.png",
+          "/static/img/react-native/bloomhigh/11.png",
+          "/static/img/react-native/bloomhigh/12.png",
+          "/static/img/react-native/bloomhigh/13.png",
+          "/static/img/react-native/bloomhigh/14.png",
+          "/static/img/react-native/bloomhigh/15.png",
+          "/static/img/react-native/bloomhigh/16.png",
+        ],
+        url: "https://apps.apple.com/us/app/bloomhigh/id1485541140",
+        url_name: "Bloomhigh On Apple Store",
+        category: "Social Network",
+        tags: `React Native, React.js, GraphQL/Apollo`,
+        desc: `
+
+        Bloomhigh is the place to connect with like minded individuals, outside
+         the box thinkers and the ambitious drivers of change in our communities, 
+         making it possible to learn from one another, conquer new career heights, 
+         push boundaries, and get inspired by one another’s sense of passion, purpose, 
+         journey, and stories of unyielding success.
+
+          Indeed, this is a new dawn in the age of professionalism.
+               
+        <br />
+        <br />
+
+        Want to build your own startup? you are at right place ;)
+
+                `,
       },
 
       {
@@ -73,7 +164,7 @@ export default class ReactNative extends Component {
           "/static/img/react-native/bridge/15.png",
           "/static/img/react-native/bridge/16.png",
           "/static/img/react-native/bridge/17.png",
-          "/static/img/react-native/bridge/18.png"
+          "/static/img/react-native/bridge/18.png",
         ],
         url: "https://brdg.app/",
         url_name: "www.brdg.app",
@@ -109,7 +200,7 @@ export default class ReactNative extends Component {
 
         Want to build your own startup? you are at right place ;)
                
-                `
+                `,
       },
       {
         status: false,
@@ -133,7 +224,7 @@ export default class ReactNative extends Component {
           "/static/img/react-native/gitrak/13.png",
           "/static/img/react-native/gitrak/14.png",
           "/static/img/react-native/gitrak/15.png",
-          "/static/img/react-native/gitrak/16.png"
+          "/static/img/react-native/gitrak/16.png",
         ],
         url: "https://www.unicoin.io/",
         url_name: "www.unicoin.io",
@@ -150,7 +241,7 @@ export default class ReactNative extends Component {
                 some suggestions and notify a doctor
                 if has some problems, schedule a call with a doctor.
                        
-                        `
+                        `,
       },
       {
         status: false,
@@ -164,7 +255,7 @@ export default class ReactNative extends Component {
           "/static/img/react-native/taxiapp/3.png",
           "/static/img/react-native/taxiapp/4.png",
           "/static/img/react-native/taxiapp/5.png",
-          "/static/img/react-native/taxiapp/6.png"
+          "/static/img/react-native/taxiapp/6.png",
         ],
         url: "https://www.taxiapp.io/",
         url_name: "www.taxiapp.io",
@@ -192,7 +283,7 @@ export default class ReactNative extends Component {
                 <br />
                 <br />
                 Github repo: <a href="https://github.com/baxri/taxi-app" target="_blank">TaxiApp</a>
-               `
+               `,
       },
       {
         status: false,
@@ -209,7 +300,7 @@ export default class ReactNative extends Component {
           "/static/img/react-native/starcourse/6.png",
           "/static/img/react-native/starcourse/7.png",
           "/static/img/react-native/starcourse/8.png",
-          "/static/img/react-native/starcourse/9.png"
+          "/static/img/react-native/starcourse/9.png",
         ],
         url: "https://www.unicoin.io/",
         url_name: "www.unicoin.io",
@@ -226,7 +317,7 @@ export default class ReactNative extends Component {
                 Unlike some competitor tools that limit the amount of loads per trip and don’t calculate profitability, 
                 our Load Planner returns multiple trips each consisting of one or more loads with total revenue/profitability analysis.
 
-                        `
+                        `,
       },
       {
         status: true,
@@ -241,7 +332,7 @@ export default class ReactNative extends Component {
           "/static/img/react-native/greetingwithcrypto/4.png",
           "/static/img/react-native/greetingwithcrypto/5.png",
           "/static/img/react-native/greetingwithcrypto/6.png",
-          "/static/img/react-native/greetingwithcrypto/7.png"
+          "/static/img/react-native/greetingwithcrypto/7.png",
         ],
         url: "https://greetingswithcrypto.com/",
         url_name: "greetingswithcrypto.com",
@@ -260,7 +351,7 @@ export default class ReactNative extends Component {
                 Pay using your crypto wallet and bam you're done!
                 <br />
                 <br />
-                        `
+                        `,
       },
       {
         status: true,
@@ -290,7 +381,7 @@ export default class ReactNative extends Component {
           "/static/img/react-native/haccp/19.png",
           "/static/img/react-native/haccp/20.png",
           "/static/img/react-native/haccp/21.png",
-          "/static/img/react-native/haccp/22.png"
+          "/static/img/react-native/haccp/22.png",
         ],
         url: "https://www.unicoin.io/",
         url_name: "www.unicoin.io",
@@ -325,8 +416,8 @@ export default class ReactNative extends Component {
                         <br />
                         <a href="https://github.com/baxri/node-realm-connector" target="_blank">NODE REALM CONNECTOR</a>
 
-                        `
-      }
+                        `,
+      },
     ];
 
     return (
