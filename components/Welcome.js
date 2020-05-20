@@ -80,7 +80,7 @@ export default class Welcome extends Component {
             bottom: 50px;
             margin-right: 180px;
             border: 7px solid white;
-            max-width: 250px;
+            max-width: 400px;
           }
 
           .skills {
