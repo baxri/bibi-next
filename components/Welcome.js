@@ -57,6 +57,11 @@ export default class Welcome extends Component {
                   src="/static/img/bloom-me.jpg"
                   alt=""
                 />
+                {/* <img
+                  className="img-fluid avatar-1"
+                  src="/static/img/me.jpg"
+                  alt=""
+                /> */}
               </div>
             </div>
           </div>
@@ -69,6 +74,7 @@ export default class Welcome extends Component {
           .banner-img {
             height: 100vh;
             padding-top: 15%;
+            position: "relative";
           }
 
           .banner-content {
@@ -76,6 +82,8 @@ export default class Welcome extends Component {
           }
 
           .avatar {
+            /* top: 0,
+            position: 'absolute', */
             border-radius: 200px;
             bottom: 50px;
             margin-right: 180px;
