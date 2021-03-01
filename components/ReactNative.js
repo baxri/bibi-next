@@ -52,6 +52,72 @@ export default class ReactNative extends Component {
         status: true,
         intranet: false,
         intro: false,
+        id: "omni",
+        title: "OhanaLink",
+        images: [
+          "/static/img/react-native/OMNI/1.png",
+          "/static/img/react-native/OMNI/2.png",
+          "/static/img/react-native/OMNI/3.png",
+          "/static/img/react-native/OMNI/4.png",
+          "/static/img/react-native/OMNI/5.png",
+          "/static/img/react-native/OMNI/6.png",
+          "/static/img/react-native/OMNI/7.png",
+          "/static/img/react-native/OMNI/8.png",
+          "/static/img/react-native/OMNI/9.png",
+          "/static/img/react-native/OMNI/10.png",
+        ],
+        url: "https://apps.apple.com/us/app/ohanalink/id1533807658",
+        url_name: "OhanaLink On Apple Store",
+        category: "Social Network",
+        tags: `React Native, React.js`,
+        desc: `
+
+        Connect, communicate, and collaborate in a private community when a patient needs it most. Whether they need care in a hospital emergency room, inpatient, outpatient center, or ambulatory surgery center, OhanaLink is an easy-to-use solution for individuals in any health care setting.
+
+        <br />
+        <br />
+
+        Want to build your own startup? you are at right place ;)
+
+        `,
+      },
+
+      {
+        status: true,
+        intranet: false,
+        intro: false,
+        id: "workaxle",
+        title: "WorkAxle",
+        images: [
+          "/static/img/react-native/WorkAxle/1.png",
+          "/static/img/react-native/WorkAxle/2.png",
+          "/static/img/react-native/WorkAxle/3.png",
+          "/static/img/react-native/WorkAxle/4.png",
+          "/static/img/react-native/WorkAxle/5.png",
+          "/static/img/react-native/WorkAxle/6.png",
+        ],
+        url: "https://apps.apple.com/us/app/workaxle/id1313407282",
+        url_name: "WorkAxle On Apple Store",
+        category: "Social Network",
+        tags: `React Native, React.js`,
+        desc: `
+
+        WorkAxle allows you to live update your schedule, communicate with your team, and even search for jobs!
+              
+        WorkAxle can adapt to almost any business case. Whatever doesn’t come in the standard version can be custom-coded to fit any client’s exact requirements. Since day one, our philosophy has been be to be a product-focused company.
+
+        <br />
+        <br />
+
+        Want to build your own startup? you are at right place ;)
+
+        `,
+      },
+
+      {
+        status: true,
+        intranet: false,
+        intro: false,
         id: "worx",
         title: "Agency WorX",
         images: [
